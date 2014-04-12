@@ -13,8 +13,8 @@
       body { height: 80.8%; margin: 0; padding: 0 }
       #map-canvas { height: 100% }
     </style>
-	<script type="text/javascript" src="jquery-2.1.0.min.js">
-	</script>
+  <script type="text/javascript" src="jquery-2.1.0.min.js">
+  </script>
     <script type="text/javascript"
       src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC9aGBhOrPZgE82DKXfh5qE3ipGraldw6Q&sensor=false">
     </script>
@@ -24,10 +24,12 @@
     // Sets the coordinates of the zoos to a variable
     var zooStLouis = new google.maps.LatLng(38.63665,-90.29251);
     var zooChicago = new google.maps.LatLng(41.97340,-87.70078);
+    var zooSanDiego = new google.maps.LatLng(32.73532,-117.14905);
 
     // Sets the variable for the info window
     var infowindowstlouis = new google.maps.InfoWindow();
     var infowindowchicago = new google.maps.InfoWindow();
+    var infowindowsandiego = new google.maps.InfoWindow();
 
     // This function initializes the map
     function initialize() {
@@ -50,6 +52,11 @@
         animation:google.maps.Animation.DROP,
         position:zooChicago,
       });
+
+      var markerSanDiego = new google.maps.Marker({
+        animation:google.maps.Animation.DROP,
+        position:zooSanDiego,
+      })
 
       // Assigning content to the contentString variables
       var contentStLouis = '<div id="content">'+
@@ -76,9 +83,22 @@
       '</div>'+
       '</div>';
 
+      var contentSanDiego = '<div id="content">'+
+      '<div id="siteNotice">'+
+      '</div>'+
+      '<div id="bodyContent">'+
+      '<p><b>San Diego</b></p>'+
+      '<p><a href="http://zoo.sandiegozoo.org/">'+
+      'San Diego Zoo</a> '+
+      '<p><a href="https://www.google.com/maps/place/San+Diego+Zoo/@32.735316,-117.149046,17z/data=!3m1!4b1!4m2!3m1!1s0x80d95495497f80c9:0x5df0f4372635e247">'+
+      'Directions</a> '
+      '</div>'+
+      '</div>';
+
       // Calling the function for the info window
       makeInfoWindowEvent(map, infowindowstlouis, contentStLouis, markerStLouis);
       makeInfoWindowEvent(map, infowindowchicago, contentChicago, markerChicago);
+      makeInfoWindowEvent(map, infowindowsandiego, contentSanDiego, markerSanDiego);
 
     
     }
@@ -108,7 +128,15 @@
         markerChicago.setAnimation(google.maps.Animation.BOUNCE);
       }
     }
-	
+
+    function toggleBounce() {
+      if (markerSanDiego.getAnimation() != null) {
+        markerSanDiego.setAnimation(null);
+      } else {
+        markerSanDiego.setAnimation(google.maps.Animation.BOUNCE);
+      }
+    }
+
 
     </script>
 
@@ -166,4 +194,3 @@
   <script type="text/javascript" src="js/bootstrap.js"></script>
   </body>
 </html>
-
