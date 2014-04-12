@@ -1,14 +1,14 @@
 <!doctype html>
 <html>
-	<head>
-		<title>A to Zoo</title>
+  <head>
+    <title>A to Zoo</title>
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/site.css">
-	
-		<!-- Map -->
-	<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
 
-	<style type="text/css">
+    <!-- Map -->
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+
+    <style type="text/css">
       html { height: 80.8% }
       body { height: 80.8%; margin: 0; padding: 0 }
       #map-canvas { height: 100% }
@@ -17,47 +17,61 @@
       src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC9aGBhOrPZgE82DKXfh5qE3ipGraldw6Q&sensor=false">
     </script>
     
-	<script type="text/javascript">
-	
-	var zooStLouis = new google.maps.LatLng(38.63665,-90.29251);
-	var zooChicago = new google.maps.LatLng(41.97340,-87.70078);
-	
-      function initialize() {
-        var mapOptions = {
-          center: new google.maps.LatLng(37.5, -100),
-          zoom: 5
-        };
-        var map = new google.maps.Map(document.getElementById("map-canvas"),
-            mapOptions);
-            
-        var markerStLouis = new google.maps.Marker({
-          position:zooStLouis,
-        });
-        
-        var markerChicago = new google.maps.Marker({
-          position:zooChicago,
-        });
+    <script type="text/javascript">
 
-        markerStLouis.setMap(map);
-        markerChicago.setMap(map);
-      }
-      google.maps.event.addDomListener(window, 'load', initialize);
+    // Sets the coordinates of the zoos to a variable
+    var zooStLouis = new google.maps.LatLng(38.63665,-90.29251);
+    var zooChicago = new google.maps.LatLng(41.97340,-87.70078);
+
+    // Sets the variable for the info window
+    var infowindow = new google.maps.InfoWindow();
+
+    // This function initializes the map
+    function initialize() {
+      var mapOptions = {
+        center: new google.maps.LatLng(37.5, -100),
+        zoom: 5
+      };
+
+      var map = new google.maps.Map(document.getElementById("map-canvas"),
+        mapOptions);
+         
+      // Creates the St Louis zoo marker
+      var markerStLouis = new google.maps.Marker({
+        position:zooStLouis,
+      });
+      
+      // Creates the Chicago zoo marker  
+      var markerChicago = new google.maps.Marker({
+        position:zooChicago,
+      });
+
+      // Calling the function for the info window
+      makeInfoWindowEvent(map, infowindow, "St. Louis Zoo", markerStLouis);
+      makeInfoWindowEvent(map, infowindow, "Chicago Zoo", markerChicago);
+
+      // Displays the markers on the map
+      markerStLouis.setMap(map);
+      markerChicago.setMap(map);
+    }
+
+    google.maps.event.addDomListener(window, 'load', initialize);
+
+    // This function handles the clicks for the info windows
+    function makeInfoWindowEvent(map, infowindow, contentString, marker) {
+      google.maps.event.addListener(marker, 'click', function() {
+        infowindow.setContent(contentString);
+        infowindow.open(map, marker);
+      });
+    }
+
     </script>
-	
-	
-	
-	</head>
-
-
+  </head>
   <meta name="ROBOTS" content="NOINDEX, NOFOLLOW" />
 
-<!-- Search bar -->
-
-	
-	
-	
-	<body>
-		<nav class="navbar navbar-default" role="navigation">
+  <!-- Search bar -->
+  <body>
+    <nav class="navbar navbar-default" role="navigation">
       <div class="navbar-header">
         <a href="index.html" class="navbar-brand">A to Zoo</a>
       </div>
@@ -86,21 +100,21 @@
         </div>
       </div>
     </div>
-	
-	
-	<div class="row">
-		<div class="col-md-2 col-md-offset-5">
-			<form action="search.php" method="get">
-				<label>Name:
-				<input type="text" name="keyname" />
-				</label>
-				<input type="submit" value="Search" />
-			</form>
-		</div>
-	</div>
-	
-	<div id="map-canvas" style="height:100%"></div>
+
+
+  <div class="row">
+    <div class="col-md-2 col-md-offset-5">
+      <form action="search.php" method="get">
+        <label>Name:
+        <input type="text" name="keyname" />
+        </label>
+        <input type="submit" value="Search" />
+      </form>
+    </div>
+  </div>
+
+  <div id="map-canvas" style="height:100%"></div>
     
-	<script type="text/javascript" src="js/bootstrap.js"></script>
-	</body>
+  <script type="text/javascript" src="js/bootstrap.js"></script>
+  </body>
 </html>
