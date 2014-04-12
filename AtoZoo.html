@@ -39,11 +39,13 @@
          
       // Creates the St Louis zoo marker
       var markerStLouis = new google.maps.Marker({
+        animation:google.maps.Animation.DROP,
         position:zooStLouis,
       });
       
       // Creates the Chicago zoo marker  
       var markerChicago = new google.maps.Marker({
+        animation:google.maps.Animation.DROP,
         position:zooChicago,
       });
 
@@ -89,6 +91,22 @@
         infowindow.setContent(contentString);
         infowindow.open(map, marker);
       });
+    }
+
+    function toggleBounce() {
+      if (markerStLouis.getAnimation() != null) {
+        markerStLouis.setAnimation(null);
+      } else {
+        markerStLouis.setAnimation(google.maps.Animation.BOUNCE);
+      }
+    }
+
+    function toggleBounce() {
+      if (markerChicago.getAnimation() != null) {
+        markerChicago.setAnimation(null);
+      } else {
+        markerChicago.setAnimation(google.maps.Animation.BOUNCE);
+      }
     }
 
     </script>
