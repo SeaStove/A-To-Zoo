@@ -19,8 +19,8 @@
     
 	<script type="text/javascript">
 	
-	var myMarker = new google.maps.LatLng(38.63665,-90.29251);
-	var myMarkerTwo = new google.maps.LatLng(41.97340,-87.70078);
+	var zooStLouis = new google.maps.LatLng(38.63665,-90.29251);
+	var zooChicago = new google.maps.LatLng(41.97340,-87.70078);
 	
       function initialize() {
         var mapOptions = {
@@ -30,16 +30,16 @@
         var map = new google.maps.Map(document.getElementById("map-canvas"),
             mapOptions);
             
-        var marker=new google.maps.Marker({
-          position:myMarker,
+        var markerStLouis = new google.maps.Marker({
+          position:zooStLouis,
         });
         
-        var markertwo = new google.maps.Marker({
-          position:myMarkerTwo,
+        var markerChicago = new google.maps.Marker({
+          position:zooChicago,
         });
 
-        marker.setMap(map);
-        markertwo.setMap(map);
+        markerStlouis.setMap(map);
+        markerChicago.setMap(map);
       }
       google.maps.event.addDomListener(window, 'load', initialize);
     </script>
