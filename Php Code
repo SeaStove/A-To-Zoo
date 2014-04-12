@@ -1,0 +1,27 @@
+<html>
+  <?php
+  $con = mysqli_connect("example.com","username","password","database");
+  
+  if (mysqli_connect_errno()){
+    echo "Failed to connect to MySQL: " . mysqli_connect_error();
+  }
+
+  $result = mysqli_query($con,"SELECT * FROM STLZoo");
+
+  echo "<table>
+        <tr>
+        <th>id</th>
+        <th>Animal<th>
+        </tr>";
+
+  while($row = mysqli_fetch_array($result)){
+    echo "<tr>";
+    echo "<td>" . $row['id'] . "</td>";
+    echo "<td>" . $row['Animal'] . "</td>";
+    echo "</tr>";
+  }
+
+  mysqli_close($con);
+  ?>
+  
+</html>
