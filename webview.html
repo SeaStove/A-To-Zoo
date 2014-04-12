@@ -18,6 +18,9 @@
     </script>
     
 	<script type="text/javascript">
+	
+	var myMarker = new google.maps.LatLng(38.63665,-90.29251);
+	
       function initialize() {
         var mapOptions = {
           center: new google.maps.LatLng(37.5, -100),
@@ -25,6 +28,12 @@
         };
         var map = new google.maps.Map(document.getElementById("map-canvas"),
             mapOptions);
+            
+        var marker=new google.maps.Marker({
+          position:myMarker,
+        });
+
+        marker.setMap(map);
       }
       google.maps.event.addDomListener(window, 'load', initialize);
     </script>
