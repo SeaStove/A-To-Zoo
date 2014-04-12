@@ -78,9 +78,17 @@
       makeInfoWindowEvent(map, infowindowstlouis, contentStLouis, markerStLouis);
       makeInfoWindowEvent(map, infowindowchicago, contentChicago, markerChicago);
 
-      // Displays the markers on the map
-      markerStLouis.setMap(map);
-      markerChicago.setMap(map);
+      var gold = '<?php 
+                    include 'search.php';
+                    echo $gold; ?>';
+
+      // Determines whether or not to display the marker
+      if(gold===1){
+        markerStLouis.setMap(map);
+      }
+      if(1===1){
+        markerChicago.setMap(map);
+      }    
     }
 
     google.maps.event.addDomListener(window, 'load', initialize);
@@ -110,6 +118,9 @@
     }
 
     </script>
+
+    
+
   </head>
   <meta name="ROBOTS" content="NOINDEX, NOFOLLOW" />
 
