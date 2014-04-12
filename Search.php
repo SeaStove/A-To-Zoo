@@ -1,3 +1,4 @@
+
 <?php
 
 //capture search term and remove spaces at its both ends if the is any
@@ -22,18 +23,14 @@ $link = mysqli_connect($host, $user, $pwd, $db)
 
 //MYSQL search statement
 $query = "SELECT * FROM STLZoo WHERE animal LIKE '%$searchTerm%'";
+$query2 = "SELECT * FROM CHIZoo WHERE animal LIKE '%$searchTerm%'";
 
 $results = mysqli_query($link, $query);
-
-/*if(mysqli_num_rows($results) >= 1) {
-	$gold = 1;
-} else {
-	$gold = 0;
-}*/
+$results2 = mysqli_query($link, $query2);
 
 /* check whethere there were matching records in the table
 by counting the number of results returned */
-if(mysqli_num_rows($results) >= 1)
+/*if(mysqli_num_rows($results) >= 1)
 {
         $output = "";
         while($row = mysqli_fetch_array($results))
@@ -46,9 +43,10 @@ if(mysqli_num_rows($results) >= 1)
 }
 else
         echo "There was no matching record for the name " . $searchTerm;
+*/		
 ?> 
 
-<?php if(mysqli_num_rows($results) >= 1): ?>
+<?php /*if(mysqli_num_rows($results) >= 1):*/ ?>
 <!doctype html>
 <html>
   <head>
@@ -130,10 +128,18 @@ else
       // Calling the function for the info window
       makeInfoWindowEvent(map, infowindowstlouis, contentStLouis, markerStLouis);
       makeInfoWindowEvent(map, infowindowchicago, contentChicago, markerChicago);
+	  
 
-	  markerStLouis.setMap(map);
-	  /*markerChicago.setMap(map);*/
-    
+
+	  <?php if(mysqli_num_rows($results) >= 1 && mysqli_num_rows($results2) >= 1) : ?>
+		markerStLouis.setMap(map);
+		markerChicago.setMap(map);
+	  <?php elseif(mysqli_num_rows($results) >= 1) : ?>
+		markerStLouis.setMap(map);
+	  <?php elseif(mysqli_num_rows($results2) >= 1) : ?>
+		markerChicago.setMap(map);
+	  <?php else: ?>
+	  <?php endif; ?>
     }
 
     google.maps.event.addDomListener(window, 'load', initialize);
@@ -219,4 +225,3 @@ else
   <script type="text/javascript" src="js/bootstrap.js"></script>
   </body>
 </html>
-<?php endif; ?>
