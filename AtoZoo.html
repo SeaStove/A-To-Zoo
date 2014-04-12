@@ -78,12 +78,17 @@
       makeInfoWindowEvent(map, infowindowstlouis, contentStLouis, markerStLouis);
       makeInfoWindowEvent(map, infowindowchicago, contentChicago, markerChicago);
 
-      var gold = '<?php 
-                    include 'search.php';
-                    echo $gold; ?>';
+      var gold = <?php 
+                    function pleasework(){
+                      include 'search.php';
+                      echo $gold;
+                    } 
+                    pleasework();
+                    echo $gold;
+                    ?>;
 
       // Determines whether or not to display the marker
-      if(gold===1){
+      if(1===1){
         markerStLouis.setMap(map);
       }
       if(1===1){
