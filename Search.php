@@ -327,7 +327,7 @@ $results10 = mysqli_query($link, $query[9]);
 		markerBrookfield.setMap(map);
 	  <?php endif; ?>
 	  <?php if(mysqli_num_rows($results6) >= 1) : ?>
-		markerSmithosonian.setMap(map);
+		markerSmithsonian.setMap(map);
 	  <?php endif; ?>
 	  <?php if(mysqli_num_rows($results7) >= 1) : ?>
 		markerComo.setMap(map);
@@ -474,7 +474,7 @@ $results10 = mysqli_query($link, $query[9]);
 
 
 	  <div class="container" align="center">
-		  <h1><FONT FACE="algerian">A to Zoo</FONT></h1>
+		  <h1><FONT FACE="palatino">A to Zoo</FONT></h1>
 	  </div>
 
 
@@ -500,3 +500,4 @@ $results10 = mysqli_query($link, $query[9]);
   <script type="text/javascript" src="js/bootstrap.js"></script>
   </body>
 </html>
+
