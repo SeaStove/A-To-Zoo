@@ -1,64 +1,64 @@
-Amur Leopard
-Anaconda
-Andean Bear
-Arctic Fox
-Boa
-Bonobo
-California Condor
-Camel
-Capybara
-Cheetah
-Chinese Alligator
-Clouded Leopard
-Dung Beetle
-Elephant
-Flamingo
-Galápagos Tortoise
-Giant Panda
-Giraffe
-Gorilla
-Grizzly Bear
-Harpy Eagle
-Hippopotamus
-Honey Badger (Ratel)
-Hummingbird
-Indian Crested Porcupine
-Jaguar
-King Cobra
-Koala
-Komodo Dragon
-Laughing Kookaburra
-Leaf-cutter Ant
-Lion
-Lion-tailed Macaque
-Lynx
-Macaw
-Mandrill
-Maned Wolf
-Mang Mountain Viper
-Meerkat
-Monkey
-Mountain Lion
-Naked Mole-rat
-Okapi
-Orangutan
-Otter
-Peccary
-Polar Bear
-Pygmy Hippopotamus
-Pygmy Marmoset
-Rattlesnake
-Red Panda
-Reindeer
-Rhinoceros
-Secretary Bird
-Snow Leopard
-Striped Hyena
-Sun Bear
-Takin
-Tapir
-Tasmanian Devil
-Tiger
-Turtle & Terrapin
-Wombat
-Zebra
+1/Amur Leopard
+2/Anaconda
+3/Andean Bear
+4/Arctic Fox
+5/Boa
+6/Bonobo
+7/California Condor
+8/Camel
+9/Capybara
+10/Cheetah
+11/Chinese Alligator
+12/Clouded Leopard
+13/Dung Beetle
+14/Elephant
+15/Flamingo
+16/Galápagos Tortoise
+17/Giant Panda
+18/Giraffe
+19/Gorilla
+20/Grizzly Bear
+21/Harpy Eagle
+22/Hippopotamus
+23/Honey Badger
+24/Hummingbird
+25/Indian Crested Porcupine
+26/Jaguar
+27/King Cobra
+28/Koala
+29/Komodo Dragon
+30/Laughing Kookaburra
+31/Leaf-cutter Ant
+32/Lion
+33/Lion-tailed Macaque
+34/Lynx
+35/Macaw
+36/Mandrill
+37/Maned Wolf
+38/Mang Mountain Viper
+39/Meerkat
+40/Monkey
+41/Mountain Lion
+42/Naked Mole-rat
+43/Okapi
+44/Orangutan
+45/Otter
+46/Peccary
+47/Polar Bear
+48/Pygmy Hippopotamus
+49/Pygmy Marmoset
+50/Rattlesnake
+51/Red Panda
+52/Reindeer
+53/Rhinoceros
+54/Secretary Bird
+55/Snow Leopard
+56/Striped Hyena
+57/Sun Bear
+58/Takin
+59/Tapir
+60/Tasmanian Devil
+61/Tiger
+62/Turtle & Terrapin
+63/Wombat
+64/Zebr
