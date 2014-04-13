@@ -1,63 +1,63 @@
-Bali mynah
-Barn owl
-Barred owl
-Coscoroba swan
-Crested screamer
-Ferruginous hawk
-Flamingo (Chilean)
-Great horned owl
-Harris's hawk
-Hooded crane
-Kestrel (American)
-Kookaburra
-Penguin (Humboldt)
-Peregrine falcon
-Pheasant (Palawan)
-Red crowned crane
-Red-knobbed hornbill
-Saw-whet owl
-Screech owl
-Snowy owl
-Spectacled owl
-Steller's sea eagle
-Turkey vulture
-Wrinkled hornbill
-Arctic fox
-Mountain goat
-Asian small-clawed otter
-Ocelot
-Brown bear (grizzly)
-Orangutan
-Colobus monkey 
-Oryx
-Duiker (red-flanked)
-Patas monkey
-Elephant (African)
-Porcupine (N. American)
-Elephant (Asian)
-Pudu (southern)
-Elk (Roosevelt)
-Red panda
-Gazelle (Grant's)
-River otter (N. American)
-Giraffe
-Siamang
-Golden lion tamarin
-Sloth bear
-Gorilla (western lowland)
-Snow leopard
-Hippopotamus
-Tapir (Malayan)
-Jaguar
-Tiger (Sumatran)
-Japanese serow
-Tree kangaroo (Matschie's)
-Lemur (red ruffed)
-Visayan warty pig
-Lion
-Warthog (African)
-Lion-tailed macaque
-Wolf (gray)
-Meerkat
-Zebra (Plains)
-Komodo Dragon
+1/Bali mynah
+2/Barn owl
+3/Barred owl
+4/Coscoroba swan
+5/Crested screamer
+6/Ferruginous hawk
+7/Flamingo
+8/Great horned owl
+9/Harris's hawk
+10/Hooded crane
+11/Kestrel
+12/Kookaburra
+13/Penguin
+14/Peregrine falcon
+15/Pheasant
+16/Red crowned crane
+17/Red-knobbed hornbill
+18/Saw-whet owl
+19/Screech owl
+20/Snowy owl
+21/Spectacled owl
+22/Steller's sea eagle
+23/Turkey vulture
+24/Wrinkled hornbill
+25/Arctic fox
+26/Mountain goat
+27/Asian small-clawed otter
+28/Ocelot
+29/Brown bear
+30/Orangutan
+31/Colobus monkey 
+32/Oryx
+33/Duiker
+34/Patas monkey
+35/Elephant
+36/Porcupine
+37/Elephant
+38/Pudu
+39/Elk
+40/Red panda
+41/Gazelle
+42/River otter
+43/Giraffe
+44/Siamang
+45/Golden lion tamarin
+46/Sloth bear
+47/Gorilla
+48/Snow leopard
+49/Hippopotamus
+50/Tapir 
+51/Jaguar
+52/Tiger
+53/Japanese serow
+54/Tree kangaroo
+55/Lemur
+56/Visayan warty pig
+57/Lion
+58/Warthog
+59/Lion-tailed macaque
+60/Wolf
+61/Meerkat
+62/Zebra
+63/Komodo Dragon
