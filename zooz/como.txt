@@ -1,38 +1,38 @@
-Gorilla
-Orangutan
-DeBrazza Monkey
-White Faced Saki
-Blue eyed Black Lemur
-Emperor Tamarin (saguinus imperator)
-Geoffroy’s Tamarin (Calithrix geoffroy)
-Spider Monkey
-Tropical Encounters:
-Hoffman’s Two Toed Sloth
-Silver-beaked tanager
-Turquoise tanager
-Blue-grey tanager
-Sunbittern
-Harbor Seal
-California Sea Lion
-Atlantic Puffin
-Lake Victoria Cichlids
-Polar Bear
-African Penguin
-Amur Tiger
-Snow Leopard
-African Lion
-Puma
-Reticulated Giraffe
-Kudu
-Yellow billed stork
-Black Crown crane
-Chilean Flamingo
-Caribbean Flamingo
-Galapagos Tortoise
-Radiated Tortoise
-Wyoming Toad
-Panamanian Golden Frog- not yet designated
-Kinkajou
-Straw Colored Fruit Bat
-Southern Three Banded Armadillo
-North American Porcupine
+1/Gorilla
+2/Orangutan
+3/DeBrazza Monkey
+4/White Faced Saki
+5/Blue eyed Black Lemur
+6/Emperor Tamarin (saguinus imperator)
+7/Geoffroy’s Tamarin (Calithrix geoffroy)
+8/Spider Monkey
+9/Tropical Encounters:
+10/Hoffman’s Two Toed Sloth
+11/Silver-beaked tanager
+12/Turquoise tanager
+13/Blue-grey tanager
+14/Sunbittern
+15/Harbor Seal
+16/California Sea Lion
+17/Atlantic Puffin
+18/Lake Victoria Cichlids
+19/Polar Bear
+20/African Penguin
+21/Amur Tiger
+22/Snow Leopard
+23/African Lion
+24/Puma
+25/Reticulated Giraffe
+26/Kudu
+27/Yellow billed stork
+28/Black Crown crane
+29/Chilean Flamingo
+30/Caribbean Flamingo
+31/Galapagos Tortoise
+32/Radiated Tortoise
+33/Wyoming Toad
+34/Panamanian Golden Frog- not yet designated
+35/Kinkajou
+36/Straw Colored Fruit Bat
+37/Southern Three Banded Armadillo
+38/North American Porcupine
