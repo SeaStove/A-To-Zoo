@@ -1,97 +1,97 @@
-African Gray Parrot
-African Leopard
-African Lion
-Aldabra Tortoise
-Alligator
-Alligator Snapping Turtle
-American Bison
-Amur Tiger
-Arctic Fox
-Asian Elephant
-Asian Small Clawed Otter
-Bald Eagle
-Barbour's Map Turtle
-Bettong
-Black and White Colobus
-Black Duiker
-Black Rat Snake
-Black Rhinoceros
-Black Swan
-Black Tailed Prairie Dog
-Blood Python
-Bobcat
-Bonnethead Shark
-Bonobo
-Bornean Sun Bear
-Brown Bear
-Burmese Python
-Butterfly Fish
-Canebrake Rattlesnake
-Caribbean Flamingo
-Cattle Egret
-Chinese Crocodile Lizard
-Cownose Stingray
-Damsel
-Eastern Diamondback Rattlesnake
-Eastern Grey Kangaroo
-Eastern hellbender
-Epaulette Shark
-Feathertail Glider
-Florida Manatee
-Fly River Turtle
-Flying Fox Bat
-Garden Eel
-Gila Monster
-Golden Frog
-Golden Mantled Bat
-Grand Cayman Iguana
-Green Tree Python
-Grizzly Bear
-Hawksbill Sea Turtle
-Hognose Snake
-Humboldt Penguin
-Indian Crested Porcupine
-Indian Star Tortoise
-Kiwi
-Koala
-Komodo Dragon
-Langur
-Malaysian Giant Turtle
-Mandrill
-Markhor
-Massasauga Rattlesnake
-Matschie's Tree Kangaroo
-Mexican Beaded Lizard
-Mexican Wolf
-Moose
-North American River Otter
-Northern Copperhead
-Okapi
-Orangutan
-Orbicular Batfish
-Pallas' Cat
-Pancake Tortoise
-Polar Bear
-Prevost's Squirrel
-Pronghorn
-Puma
-Rainbow Lorikeet
-Red Crowned Crane
-Red Kangaroo
-Red Panda
-Red River Hog
-Reindeer
-Reticulated Python
-San Esteban Chuckwalla
-Scrub Python
-Siamang
-Standing's Day Gecko
-Tiger Quoll
-Timber Rattlesnake
-Timber Wolf
-Trumpeter Swan
-Western Lowland Gorilla
-Western Tufted Deer
-White Handed Gibbon
-Wolverine
-Zebra Shark
+1/African Gray Parrot
+2/African Leopard
+3/African Lion
+4/Aldabra Tortoise
+5/Alligator
+6/Alligator Snapping Turtle
+7/American Bison
+8/Amur Tiger
+9/Arctic Fox
+10/Asian Elephant
+11/Asian Small Clawed Otter
+12/Bald Eagle
+13/Barbour's Map Turtle
+14/Bettong
+15/Black and White Colobus
+16/Black Duiker
+17/Black Rat Snake
+18/Black Rhinoceros
+19/Black Swan
+20/Black Tailed Prairie Dog
+21/Blood Python
+22/Bobcat
+23/Bonnethead Shark
+24/Bonobo
+25/Bornean Sun Bear
+26/Brown Bear
+27/Burmese Python
+28/Butterfly Fish
+29/Canebrake Rattlesnake
+30/Caribbean Flamingo
+31/Cattle Egret
+32/Chinese Crocodile Lizard
+33/Cownose Stingray
+34/Damsel
+35/Eastern Diamondback Rattlesnake
+36/Eastern Grey Kangaroo
+37/Eastern hellbender
+38/Epaulette Shark
+39/Feathertail Glider
+40/Florida Manatee
+41/Fly River Turtle
+42/Flying Fox Bat
+43/Garden Eel
+44/Gila Monster
+45/Golden Frog
+46/Golden Mantled Bat
+47/rand Cayman Iguana
+48/Green Tree Python
+49/Grizzly Bear
+50/Hawksbill Sea Turtle
+51/Hognose Snake
+52/Humboldt Penguin
+53/Indian Crested Porcupine
+54/Indian Star Tortoise
+55/Kiwi
+56/Koala
+57/Komodo Dragon
+58/Langur
+59/Malaysian Giant Turtle
+60/Mandrill
+61/Markhor
+62/Massasauga Rattlesnake
+63/Matschie's Tree Kangaroo
+64/Mexican Beaded Lizard
+65/Mexican Wolf
+66/Moose
+67/North American River Otter
+68/Northern Copperhead
+69/Okapi
+70/Orangutan
+71/Orbicular Batfish
+72/Pallas' Cat
+73/Pancake Tortoise
+74/Polar Bear
+75/Prevost's Squirrel
+76/Pronghorn
+77/Puma
+78/Rainbow Lorikeet
+79/Red Crowned Crane
+80/Red Kangaroo
+81/Red Panda
+82/Red River Hog
+83/Reindeer
+84/Reticulated Python
+85/San Esteban Chuckwalla
+86/Scrub Python
+87/Siamang
+88/Standing's Day Gecko
+89/Tiger Quoll
+90/Timber Rattlesnake
+91/Timber Wolf
+92/Trumpeter Swan
+93/Western Lowland Gorilla
+94/Western Tufted Deer
+95/White Handed Gibbon
+96/Wolverine
+97/Zebra Shark
