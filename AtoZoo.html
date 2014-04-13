@@ -25,11 +25,25 @@
     var zooStLouis = new google.maps.LatLng(38.63665,-90.29251);
     var zooChicago = new google.maps.LatLng(41.97340,-87.70078);
     var zooSanDiego = new google.maps.LatLng(32.73532,-117.14905);
+    var zooColumbus = new google.maps.LatLng(40.15620,-83.11834);
+    var zooBrookfield = new google.maps.LatLng(41.83410,-87.83350);
+    var zooSmithsonian = new google.maps.LatLng(38.92982,-77.04732);
+    var zooComo = new google.maps.LatLng(44.98263,-93.15423);
+    var zooBronx = new google.maps.LatLng(40.85059,-73.87700);
+    var zooDenver = new google.maps.LatLng(39.75045,-104.94910);
+    var zooHouston = new google.maps.LatLng(29.71191,-95.39283);
 
     // Sets the variable for the info window
     var infowindowstlouis = new google.maps.InfoWindow();
     var infowindowchicago = new google.maps.InfoWindow();
     var infowindowsandiego = new google.maps.InfoWindow();
+    var infowindowcolumbus = new google.maps.InfoWindow();
+    var infowindowbrookfield = new google.maps.InfoWindow();
+    var infowindowsmithsonian = new google.maps.InfoWindow();
+    var infowindowcomo = new google.maps.InfoWindow();
+    var infowindowbronx = new google.maps.InfoWindow();
+    var infowindowdenver = new google.maps.InfoWindow();
+    var infowindowhouston = new google.maps.InfoWindow();
 
     // This function initializes the map
     function initialize() {
@@ -56,6 +70,41 @@
       var markerSanDiego = new google.maps.Marker({
         animation:google.maps.Animation.DROP,
         position:zooSanDiego,
+      })
+
+      var markerColumbus = new google.maps.Marker({
+        animation:google.maps.Animation.DROP,
+        position:zooColumbus,
+      })
+
+      var markerBrookfield = new google.maps.Marker({
+        animation:google.maps.Animation.DROP,
+        position:zooBrookfield,
+      })
+
+      var markerSmithsonian = new google.maps.Marker({
+        animation:google.maps.Animation.DROP,
+        position:zooSmithsonian,
+      })
+
+      var markerComo = new google.maps.Marker({
+        animation:google.maps.Animation.DROP,
+        position:zooComo,
+      })
+
+      var markerBronx = new google.maps.Marker({
+        animation:google.maps.Animation.DROP,
+        position:zooBronx,
+      })
+
+      var markerDenver = new google.maps.Marker({
+        animation:google.maps.Animation.DROP,
+        position:zooDenver,
+      })
+
+      var markerHouston = new google.maps.Marker({
+        animation:google.maps.Animation.DROP,
+        position:zooHouston,
       })
 
       // Assigning content to the contentString variables
@@ -95,12 +144,102 @@
       '</div>'+
       '</div>';
 
+      var contentColumbus = '<div id="content">'+
+      '<div id="siteNotice">'+
+      '</div>'+
+      '<div id="bodyContent">'+
+      '<p><b>Columbus</b></p>'+
+      '<p><a href="http://www.colszoo.org/default.aspx">'+
+      'Columbus Zoo</a> '+
+      '<p><a href="https://www.google.com/maps/place/Columbus+Zoo+and+Aquarium/@40.156198,-83.118336,17z/data=!3m1!4b1!4m2!3m1!1s0x8838f44068353097:0x7663cfee91b602a9">'+
+      'Directions</a> '
+      '</div>'+
+      '</div>';
+
+      var contentBrookfield = '<div id="content">'+
+      '<div id="siteNotice">'+
+      '</div>'+
+      '<div id="bodyContent">'+
+      '<p><b>Brookfield</b></p>'+
+      '<p><a href="http://www.brookfieldzoo.org/czs/flash/landing/index.html">'+
+      'Brookfield Zoo</a> '+
+      '<p><a href="https://www.google.com/maps/place/Brookfield+Zoo/@41.834103,-87.833503,17z/data=!3m1!4b1!4m2!3m1!1s0x880e35e9b4e0ef2f:0x1b60a35fd648cf95">'+
+      'Directions</a> '
+      '</div>'+
+      '</div>';
+
+      var contentSmithsonian = '<div id="content">'+
+      '<div id="siteNotice">'+
+      '</div>'+
+      '<div id="bodyContent">'+
+      '<p><b>Smithsonian</b></p>'+
+      '<p><a href="http://nationalzoo.si.edu/">'+
+      'Smithsonian Zoo</a> '+
+      '<p><a href="https://www.google.com/maps/place/Smithsonian+National+Zoological+Park/@38.929616,-77.049784,17z/data=!3m1!4b1!4m2!3m1!1s0x89b7b7d61dc7f0df:0x9e68ac204b0c1be4">'+
+      'Directions</a> '
+      '</div>'+
+      '</div>';
+
+      var contentComo = '<div id="content">'+
+      '<div id="siteNotice">'+
+      '</div>'+
+      '<div id="bodyContent">'+
+      '<p><b>Como</b></p>'+
+      '<p><a href="http://www.comozooconservatory.org/">'+
+      'Como Zoo</a> '+
+      '<p><a href="https://www.google.com/maps/place/Como+Park+Zoo+%26+Conservatory/@44.982631,-93.154232,17z/data=!3m1!4b1!4m2!3m1!1s0x52b32b10dbc7cde5:0x45abc97da82f5f5a">'+
+      'Directions</a> '
+      '</div>'+
+      '</div>';
+
+      var contentBronx = '<div id="content">'+
+      '<div id="siteNotice">'+
+      '</div>'+
+      '<div id="bodyContent">'+
+      '<p><b>Bronx</b></p>'+
+      '<p><a href="http://www.bronxzoo.com/">'+
+      'Bronx Zoo</a> '+
+      '<p><a href="https://www.google.com/maps/place/Bronx+Zoo/@40.850595,-73.876998,17z/data=!3m1!4b1!4m2!3m1!1s0x89c2f483516ad28b:0x56eb41c9795102e">'+
+      'Directions</a> '
+      '</div>'+
+      '</div>';
+
+      var contentDenver = '<div id="content">'+
+      '<div id="siteNotice">'+
+      '</div>'+
+      '<div id="bodyContent">'+
+      '<p><b>Denver</b></p>'+
+      '<p><a href="http://www.denverzoo.org/">'+
+      'Denver Zoo</a> '+
+      '<p><a href="https://www.google.com/maps/place/Denver+Zoo/@39.750448,-104.949099,17z/data=!3m1!4b1!4m2!3m1!1s0x876c794e20258f71:0x53fd0ed23d876c29">'+
+      'Directions</a> '
+      '</div>'+
+      '</div>';
+
+      var contentHouston = '<div id="content">'+
+      '<div id="siteNotice">'+
+      '</div>'+
+      '<div id="bodyContent">'+
+      '<p><b>Houston</b></p>'+
+      '<p><a href="http://www.houstonzoo.org/">'+
+      'Houston Zoo</a> '+
+      '<p><a href="https://www.google.com/maps/place/The+Houston+Zoo/@29.71191,-95.392828,17z/data=!3m1!4b1!4m2!3m1!1s0x8640bf8610513213:0x61f408cc441069f8">'+
+      'Directions</a> '
+      '</div>'+
+      '</div>';
+
       // Calling the function for the info window
       makeInfoWindowEvent(map, infowindowstlouis, contentStLouis, markerStLouis);
       makeInfoWindowEvent(map, infowindowchicago, contentChicago, markerChicago);
       makeInfoWindowEvent(map, infowindowsandiego, contentSanDiego, markerSanDiego);
+      makeInfoWindowEvent(map, infowindowcolumbus, contentColumbus, markerColumbus);
+      makeInfoWindowEvent(map, infowindowbrookfield, contentBrookfield, markerBrookfield);
+      makeInfoWindowEvent(map, infowindowsmithsonian, contentSmithsonian, markerSmithsonian);
+      makeInfoWindowEvent(map, infowindowcomo, contentComo, markerComo);
+      makeInfoWindowEvent(map, infowindowbronx, contentBronx, markerBronx);
+      makeInfoWindowEvent(map, infowindowdenver, contentDenver, markerDenver);
+      makeInfoWindowEvent(map, infowindowhouston, contentHouston, markerHouston);
 
-    
     }
 
     google.maps.event.addDomListener(window, 'load', initialize);
@@ -137,6 +276,61 @@
       }
     }
 
+    function toggleBounce() {
+      if (markerColumbus.getAnimation() != null) {
+        markerColumbus.setAnimation(null);
+      } else {
+        markerColumbus.setAnimation(google.maps.Animation.BOUNCE);
+      }
+    }
+
+    function toggleBounce() {
+      if (markerBrookfield.getAnimation() != null) {
+        markerBrookfield.setAnimation(null);
+      } else {
+        markerBrookfield.setAnimation(google.maps.Animation.BOUNCE);
+      }
+    }
+
+    function toggleBounce() {
+      if (markerSmithsonian.getAnimation() != null) {
+        markerSmithsonian.setAnimation(null);
+      } else {
+        markerSmithsonian.setAnimation(google.maps.Animation.BOUNCE);
+      }
+    }
+
+    function toggleBounce() {
+      if (markerComo.getAnimation() != null) {
+        markerComo.setAnimation(null);
+      } else {
+        markerComo.setAnimation(google.maps.Animation.BOUNCE);
+      }
+    }
+
+    function toggleBounce() {
+      if (markerBronx.getAnimation() != null) {
+        markerBronx.setAnimation(null);
+      } else {
+        markerBronx.setAnimation(google.maps.Animation.BOUNCE);
+      }
+    }
+
+    function toggleBounce() {
+      if (markerDenver.getAnimation() != null) {
+        markerDenver.setAnimation(null);
+      } else {
+        markerDenver.setAnimation(google.maps.Animation.BOUNCE);
+      }
+    }
+
+    function toggleBounce() {
+      if (markerHouston.getAnimation() != null) {
+        markerHouston.setAnimation(null);
+      } else {
+        markerHouston.setAnimation(google.maps.Animation.BOUNCE);
+      }
+    }
 
     </script>
 
