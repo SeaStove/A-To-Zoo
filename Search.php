@@ -123,49 +123,49 @@ $results10 = mysqli_query($link, $query[9]);
       var markerSanDiego = new google.maps.Marker({
         animation:google.maps.Animation.DROP,
         position:zooSanDiego,
-      })
+      });
 
 
       var markerColumbus = new google.maps.Marker({
         animation:google.maps.Animation.DROP,
         position:zooColumbus,
-      })
+      });
 
 
       var markerBrookfield = new google.maps.Marker({
         animation:google.maps.Animation.DROP,
         position:zooBrookfield,
-      })
+      });
 
 
       var markerSmithsonian = new google.maps.Marker({
         animation:google.maps.Animation.DROP,
         position:zooSmithsonian,
-      })
+      });
 
 
       var markerComo = new google.maps.Marker({
         animation:google.maps.Animation.DROP,
         position:zooComo,
-      })
+      });
 
 
       var markerBronx = new google.maps.Marker({
         animation:google.maps.Animation.DROP,
         position:zooBronx,
-      })
+      });
 
 
       var markerDenver = new google.maps.Marker({
         animation:google.maps.Animation.DROP,
         position:zooDenver,
-      })
+      });
 
 
       var markerHouston = new google.maps.Marker({
         animation:google.maps.Animation.DROP,
         position:zooHouston,
-      })
+      });
 
 
       // Assigning content to the contentString variables
