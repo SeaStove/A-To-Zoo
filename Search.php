@@ -17,7 +17,7 @@ if($searchTerm == "")
 $host = "localhost"; //server
 $db = "atozoo"; //database name
 $user = "root"; //dabases user name
-$pwd = "in4000"; //password
+$pwd = "YES"; //password
 
 
 //connecting to server and creating link to database
@@ -27,10 +27,10 @@ $link = mysqli_connect($host, $user, $pwd, $db)
 
 //MYSQL search statement
 $query = array("SELECT * FROM STLZoo WHERE animal LIKE '%$searchTerm%'", "SELECT * FROM CHIZoo WHERE animal LIKE '%$searchTerm%'"
-, "SELECT * FROM CHIZoo WHERE animal LIKE '%$searchTerm%'", "SELECT * FROM CHIZoo WHERE animal LIKE '%$searchTerm%'"
-, "SELECT * FROM CHIZoo WHERE animal LIKE '%$searchTerm%'", "SELECT * FROM CHIZoo WHERE animal LIKE '%$searchTerm%'"
-, "SELECT * FROM CHIZoo WHERE animal LIKE '%$searchTerm%'", "SELECT * FROM CHIZoo WHERE animal LIKE '%$searchTerm%'"
-, "SELECT * FROM CHIZoo WHERE animal LIKE '%$searchTerm%'", "SELECT * FROM CHIZoo WHERE animal LIKE '%$searchTerm%'");
+, "SELECT * FROM SDIZoo WHERE animal LIKE '%$searchTerm%'", "SELECT * FROM COLZoo WHERE animal LIKE '%$searchTerm%'"
+, "SELECT * FROM WOOZoo WHERE animal LIKE '%$searchTerm%'", "SELECT * FROM SMSZoo WHERE animal LIKE '%$searchTerm%'"
+, "SELECT * FROM CMOZoo WHERE animal LIKE '%$searchTerm%'", "SELECT * FROM BRXZoo WHERE animal LIKE '%$searchTerm%'"
+, "SELECT * FROM DVRZoo WHERE animal LIKE '%$searchTerm%'", "SELECT * FROM HOUZoo WHERE animal LIKE '%$searchTerm%'");
 
 $results = mysqli_query($link, $query[0]);
 $results2 = mysqli_query($link, $query[1]);
@@ -52,8 +52,12 @@ $results10 = mysqli_query($link, $query[9]);
     <link rel="stylesheet" href="css/site.css">
 
 
+
+
     <!-- Map -->
     <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+
+
 
 
     <style type="text/css">
@@ -70,12 +74,14 @@ $results10 = mysqli_query($link, $query[9]);
     <script type="text/javascript">
 
 
+
+
     // Sets the coordinates of the zoos to a variable
     var zooStLouis = new google.maps.LatLng(38.63665,-90.29251);
     var zooChicago = new google.maps.LatLng(41.97340,-87.70078);
     var zooSanDiego = new google.maps.LatLng(32.73532,-117.14905);
     var zooColumbus = new google.maps.LatLng(40.15620,-83.11834);
-    var zooBrookfield = new google.maps.LatLng(41.83410,-87.83350);
+    var zooWoodland = new google.maps.LatLng(47.66839,-122.35087);
     var zooSmithsonian = new google.maps.LatLng(38.92982,-77.04732);
     var zooComo = new google.maps.LatLng(44.98263,-93.15423);
     var zooBronx = new google.maps.LatLng(40.85059,-73.87700);
@@ -83,17 +89,21 @@ $results10 = mysqli_query($link, $query[9]);
     var zooHouston = new google.maps.LatLng(29.71191,-95.39283);
 
 
+
+
     // Sets the variable for the info window
     var infowindowstlouis = new google.maps.InfoWindow();
     var infowindowchicago = new google.maps.InfoWindow();
     var infowindowsandiego = new google.maps.InfoWindow();
     var infowindowcolumbus = new google.maps.InfoWindow();
-    var infowindowbrookfield = new google.maps.InfoWindow();
+    var infowindowwoodland = new google.maps.InfoWindow();
     var infowindowsmithsonian = new google.maps.InfoWindow();
     var infowindowcomo = new google.maps.InfoWindow();
     var infowindowbronx = new google.maps.InfoWindow();
     var infowindowdenver = new google.maps.InfoWindow();
     var infowindowhouston = new google.maps.InfoWindow();
+
+
 
 
     // This function initializes the map
@@ -102,6 +112,8 @@ $results10 = mysqli_query($link, $query[9]);
         center: new google.maps.LatLng(37.5, -100),
         zoom: 5
       };
+
+
 
 
       var map = new google.maps.Map(document.getElementById("map-canvas"),
@@ -120,10 +132,14 @@ $results10 = mysqli_query($link, $query[9]);
       });
 
 
+
+
       var markerSanDiego = new google.maps.Marker({
         animation:google.maps.Animation.DROP,
         position:zooSanDiego,
       });
+
+
 
 
       var markerColumbus = new google.maps.Marker({
@@ -132,10 +148,14 @@ $results10 = mysqli_query($link, $query[9]);
       });
 
 
-      var markerBrookfield = new google.maps.Marker({
+
+
+      var markerWoodland = new google.maps.Marker({
         animation:google.maps.Animation.DROP,
-        position:zooBrookfield,
+        position:zooWoodland,
       });
+
+
 
 
       var markerSmithsonian = new google.maps.Marker({
@@ -144,10 +164,14 @@ $results10 = mysqli_query($link, $query[9]);
       });
 
 
+
+
       var markerComo = new google.maps.Marker({
         animation:google.maps.Animation.DROP,
         position:zooComo,
       });
+
+
 
 
       var markerBronx = new google.maps.Marker({
@@ -156,16 +180,22 @@ $results10 = mysqli_query($link, $query[9]);
       });
 
 
+
+
       var markerDenver = new google.maps.Marker({
         animation:google.maps.Animation.DROP,
         position:zooDenver,
       });
 
 
+
+
       var markerHouston = new google.maps.Marker({
         animation:google.maps.Animation.DROP,
         position:zooHouston,
       });
+
+
 
 
       // Assigning content to the contentString variables
@@ -182,6 +212,8 @@ $results10 = mysqli_query($link, $query[9]);
       '</div>';
 
 
+
+
       var contentChicago = '<div id="content">'+
       '<div id="siteNotice">'+
       '</div>'+
@@ -193,6 +225,8 @@ $results10 = mysqli_query($link, $query[9]);
       'Directions</a> '
       '</div>'+
       '</div>';
+
+
 
 
       var contentSanDiego = '<div id="content">'+
@@ -208,6 +242,8 @@ $results10 = mysqli_query($link, $query[9]);
       '</div>';
 
 
+
+
       var contentColumbus = '<div id="content">'+
       '<div id="siteNotice">'+
       '</div>'+
@@ -221,17 +257,21 @@ $results10 = mysqli_query($link, $query[9]);
       '</div>';
 
 
-      var contentBrookfield = '<div id="content">'+
+
+
+      var contentWoodland = '<div id="content">'+
       '<div id="siteNotice">'+
       '</div>'+
       '<div id="bodyContent">'+
-      '<p><b>Brookfield</b></p>'+
-      '<p><a href="http://www.brookfieldzoo.org/czs/flash/landing/index.html">'+
-      'Brookfield Zoo</a> '+
-      '<p><a href="https://www.google.com/maps/place/Brookfield+Zoo/@41.834103,-87.833503,17z/data=!3m1!4b1!4m2!3m1!1s0x880e35e9b4e0ef2f:0x1b60a35fd648cf95">'+
+      '<p><b>Woodland</b></p>'+
+      '<p><a href="https://www.zoo.org/">'+
+      'Woodland Park Zoo</a> '+
+      '<p><a href="https://www.google.com/maps/place/Woodland+Park+Zoo/@47.668518,-122.350696,17z/data=!3m1!4b1!4m2!3m1!1s0x549014494aaed4c9:0x7c622dc1f941a8b2">'+
       'Directions</a> '
       '</div>'+
       '</div>';
+
+
 
 
       var contentSmithsonian = '<div id="content">'+
@@ -247,6 +287,8 @@ $results10 = mysqli_query($link, $query[9]);
       '</div>';
 
 
+
+
       var contentComo = '<div id="content">'+
       '<div id="siteNotice">'+
       '</div>'+
@@ -258,6 +300,8 @@ $results10 = mysqli_query($link, $query[9]);
       'Directions</a> '
       '</div>'+
       '</div>';
+
+
 
 
       var contentBronx = '<div id="content">'+
@@ -273,6 +317,8 @@ $results10 = mysqli_query($link, $query[9]);
       '</div>';
 
 
+
+
       var contentDenver = '<div id="content">'+
       '<div id="siteNotice">'+
       '</div>'+
@@ -284,6 +330,8 @@ $results10 = mysqli_query($link, $query[9]);
       'Directions</a> '
       '</div>'+
       '</div>';
+
+
 
 
       var contentHouston = '<div id="content">'+
@@ -299,18 +347,20 @@ $results10 = mysqli_query($link, $query[9]);
       '</div>';
 
 
+
+
       // Calling the function for the info window
       makeInfoWindowEvent(map, infowindowstlouis, contentStLouis, markerStLouis);
       makeInfoWindowEvent(map, infowindowchicago, contentChicago, markerChicago);
       makeInfoWindowEvent(map, infowindowsandiego, contentSanDiego, markerSanDiego);
       makeInfoWindowEvent(map, infowindowcolumbus, contentColumbus, markerColumbus);
-      makeInfoWindowEvent(map, infowindowbrookfield, contentBrookfield, markerBrookfield);
+      makeInfoWindowEvent(map, infowindowwoodland, contentWoodland, markerWoodland);
       makeInfoWindowEvent(map, infowindowsmithsonian, contentSmithsonian, markerSmithsonian);
       makeInfoWindowEvent(map, infowindowcomo, contentComo, markerComo);
       makeInfoWindowEvent(map, infowindowbronx, contentBronx, markerBronx);
       makeInfoWindowEvent(map, infowindowdenver, contentDenver, markerDenver);
       makeInfoWindowEvent(map, infowindowhouston, contentHouston, markerHouston);
-	  
+
 	  <?php if(mysqli_num_rows($results) >= 1) : ?>
 		markerStLouis.setMap(map);
 	  <?php endif; ?>
@@ -324,7 +374,7 @@ $results10 = mysqli_query($link, $query[9]);
 		markerColumbus.setMap(map);
 	  <?php endif; ?>
 	  <?php if(mysqli_num_rows($results5) >= 1) : ?>
-		markerBrookfield.setMap(map);
+		markerWoodland.setMap(map);
 	  <?php endif; ?>
 	  <?php if(mysqli_num_rows($results6) >= 1) : ?>
 		markerSmithsonian.setMap(map);
@@ -346,7 +396,11 @@ $results10 = mysqli_query($link, $query[9]);
     }
 
 
+
+
     google.maps.event.addDomListener(window, 'load', initialize);
+
+
 
 
     // This function handles the clicks for the info windows
@@ -358,6 +412,8 @@ $results10 = mysqli_query($link, $query[9]);
     }
 
 
+
+
     function toggleBounce() {
       if (markerStLouis.getAnimation() != null) {
         markerStLouis.setAnimation(null);
@@ -365,6 +421,8 @@ $results10 = mysqli_query($link, $query[9]);
         markerStLouis.setAnimation(google.maps.Animation.BOUNCE);
       }
     }
+
+
 
 
     function toggleBounce() {
@@ -376,6 +434,8 @@ $results10 = mysqli_query($link, $query[9]);
     }
 
 
+
+
     function toggleBounce() {
       if (markerSanDiego.getAnimation() != null) {
         markerSanDiego.setAnimation(null);
@@ -383,6 +443,8 @@ $results10 = mysqli_query($link, $query[9]);
         markerSanDiego.setAnimation(google.maps.Animation.BOUNCE);
       }
     }
+
+
 
 
     function toggleBounce() {
@@ -394,13 +456,17 @@ $results10 = mysqli_query($link, $query[9]);
     }
 
 
+
+
     function toggleBounce() {
-      if (markerBrookfield.getAnimation() != null) {
-        markerBrookfield.setAnimation(null);
+      if (markerWoodland.getAnimation() != null) {
+        markerWoodland.setAnimation(null);
       } else {
-        markerBrookfield.setAnimation(google.maps.Animation.BOUNCE);
+        markerWoodland.setAnimation(google.maps.Animation.BOUNCE);
       }
     }
+
+
 
 
     function toggleBounce() {
@@ -412,6 +478,8 @@ $results10 = mysqli_query($link, $query[9]);
     }
 
 
+
+
     function toggleBounce() {
       if (markerComo.getAnimation() != null) {
         markerComo.setAnimation(null);
@@ -419,6 +487,8 @@ $results10 = mysqli_query($link, $query[9]);
         markerComo.setAnimation(google.maps.Animation.BOUNCE);
       }
     }
+
+
 
 
     function toggleBounce() {
@@ -430,6 +500,8 @@ $results10 = mysqli_query($link, $query[9]);
     }
 
 
+
+
     function toggleBounce() {
       if (markerDenver.getAnimation() != null) {
         markerDenver.setAnimation(null);
@@ -437,6 +509,8 @@ $results10 = mysqli_query($link, $query[9]);
         markerDenver.setAnimation(google.maps.Animation.BOUNCE);
       }
     }
+
+
 
 
     function toggleBounce() {
@@ -448,14 +522,22 @@ $results10 = mysqli_query($link, $query[9]);
     }
 
 
+
+
     </script>
+
+
 
 
     
 
 
+
+
   </head>
   <meta name="ROBOTS" content="NOINDEX, NOFOLLOW" />
+
+
 
 
   <!-- Search bar -->
@@ -466,6 +548,8 @@ $results10 = mysqli_query($link, $query[9]);
       </div>
 
 
+
+
       <ul class="nav navbar-nav">
         <li class="active"><a href="AtoZoo.html">Home</a></li>
         <li class=""><a href="about.html">About</a></li>
@@ -473,24 +557,35 @@ $results10 = mysqli_query($link, $query[9]);
     </nav>
 
 
-	  <div class="container" align="center">
-		  <h1><FONT FACE="palatino">A to Zoo</FONT></h1>
-	  </div>
 
 
-	  <div class="row">
-	  	<div class="col-md-2 col-md-offset-5">
-		  	<form class="navbar-form navbar-left" role="search"action="search.php" method="get">
-			  	<div class="form-group">
-			  		<input type="text" name="keyname" class="form-control" placeholder="Enter an animal">
-			  	</div>
-			  	<button type="submit" class="btn btn-default">Search</button>
-			  </form>
-	  	</div>
-	  </div>
+    <div class="container" align="center">
+		<h1><FONT FACE="palatino">A to Zoo</h1>
+      <h2><FONT FACE="palatino">Enter an animal you want to search for:</FONT></h2>
+    </div>
 
 
-	  <br/>
+
+
+    <div class="row">
+      <div class="col-md-2 col-md-offset-5">
+        <form class="navbar-form navbar-left" role="search"action="search.php" method="get">
+          <div class="form-group">
+            <input type="text" name="keyname" class="form-control" placeholder="Ex: Monkey">
+          </div>
+          <button type="submit" class="btn btn-default">Search</button>
+        </form>
+      </div>
+    </div>
+
+
+
+
+    <br/>
+
+
+
+
 
 
 
@@ -500,4 +595,5 @@ $results10 = mysqli_query($link, $query[9]);
   <script type="text/javascript" src="js/bootstrap.js"></script>
   </body>
 </html>
+
 
