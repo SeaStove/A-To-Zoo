@@ -17,3 +17,4 @@ Update - 2:10 : Justin leaves
 
 Update - 3:05 : The website runs, now to connect it to our database
 
+Update - 9:45pm : Forgot about the readme. Our project is awesome.
