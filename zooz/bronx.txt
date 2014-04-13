@@ -1,3 +1,13 @@
-bears
-monkeys
-ants
+1/bears
+2/monkeys
+3/ants
+4/deer
+5/aardvark
+6/chinchilla
+7/polar bear
+8/giraffe
+9/lion
+10/tiger
+11/snow leopard
+12/flamingo
+13/anaconda
