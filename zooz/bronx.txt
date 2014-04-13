@@ -1,13 +1,44 @@
-1/bears
-2/monkeys
-3/ants
-4/deer
-5/aardvark
-6/chinchilla
-7/polar bear
-8/giraffe
-9/lion
-10/tiger
-11/snow leopard
-12/flamingo
-13/anaconda
+1/aardvark
+2/chinchilla
+3/african wild dog
+4/asian elephant
+5/american bison
+6/california sea lion
+7/collared lemur
+8/fossa
+9/gelada
+10/giraffe
+11/gorilla
+12/grevy's zebra
+13/grizzly bear
+14/indian rhinoceros
+15/lion
+16/polar bear
+17/pygmy marmoset
+18/red panda
+19/red-ruffed lemur
+20/ring-tailed lemur
+21/ring-tailed mongoose
+22/Coquerel's Sifaka
+23/snow leopard
+24/tiger
+25/ball mynah
+26/bald eagle
+27/caribbean flamingo
+28/magellanic penguin
+29/monk parakeet
+30/white-faced scops owl
+31/white-throated bee-eater
+32/alligator snapping turtle
+33/american alligator
+34/anaconda
+35/emerald tree boa
+36/henkel's leaf-tailed gecko
+37/king cobra
+38/madagascan tree boa
+39/nile crocodile
+40/dart poison frogs
+41/radiated tortoise
+42/marakely
+43/madagascar hissing cockroach
+44/monarch butterfly
