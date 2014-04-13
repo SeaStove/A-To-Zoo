@@ -1,7 +1,7 @@
 HackIllinios
 ============
 
-Three Guys One Bus
+Three Guys One DREAM
 
 This is the repo for our HackIllinous project. As of writing this ReadMe we have no idea what we're doing.
 
