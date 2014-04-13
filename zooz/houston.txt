@@ -1,148 +1,148 @@
-Anderson’s Newt
-Asian Climbing Toad
-Aquatic Caecilian
-Barton Springs Salamander
-Blue Poison Arrow Frog
-European Fire SalamanderFile-eared Tree Frog
-Giant Waxy Monkey Tree Frog
-Glass Frog
-Golden Mantella
-Hourglass Tree Frog
-Houston ToadLemur Tree Frog
-Mandarin Newt
-Panamanian Golden Frog
-Sabana Surinam Toad
-Sambava Tomato Frog
-Spine-headed Tree Frog
-African Pygmy Falcon
-African Spoonbill
-Attwater’s Prairie Chicken
-Bald Eagle
-Beautiful Fruit Dove
-Blue-Billed Curassow
-Blue-Throated Macaw
-Brown Pelican
-Chestnut-breasted Malkoha
-Chilean Flamingo
-Cinereous Vulture
-Double-wattled Cassowary
-Golden-headed Manakin
-Golden-headed Quetzal
-Green AracariGreen-winged Macaw
-Great Argus Pheasant
-Great Horned Owl
-Grey-winged Trumpeter
-Hammerkop
-Hooded Merganser
-Javan Green Peafowl
-Kagu
-King Vulture
-Lady Ross’s Turaco
-Laughing Kookaburra
-Micronesian Kingfisher
-Northern-helmeted Curassow
-Ostrich
-Pesquet’s ParrotPlush-crested Jay
-Pompadour Cotinga
-Red-billed Blue Magpie
-Red-crowned Crane
-Red-Fronted Macaw
-Rhinoceros Hornbill
-Shoebill Stork
-St. Vincent Amazon Parrot
-Waldrapp Ibis
-White-bellied Go-away Bird
-White-eared Catbird
-Wood Stork
-African Lion
-African Painted Dog
-Agile Gibbon
-Allen’s Swamp Monkey
-Andean Bear
-Ankole Cattle
-Asian Elephant
-Asian Small-clawed Otter
-Babirusa
-Baird’s Tapir
-Binturong
-Bongo
-Cheetah
-Chimpanzee
-Clouded Leopard
-Coquerel’s Sifaka
-Cotton-topped Tamarin
-Cougar
-Crowned Lemur
-Damara Mole-RatFossa
-Giant Anteater
-Giant Eland
-Goeldi’s Monkey
-Golden Lion Tamarin
-Greater Kudu
-Grizzly Bear
-Jaguar
-Malayan Tiger
-Mandrill
-Maned Wolf
-Masai Giraffe
-Meerkat
-Naked Mole-Rat
-Nigerian Dwarf Goat
-North American Porcupine
-Nyala Antelope
-Okapi
-OrangutanNorth American River Otter
-Patas Monkey
-Pied Tamarin
-Pygmy Marmoset
-Red-capped Mangabey
-Red-fronted Lemur
-Red Panda
-Ring-Tailed Lemur
-Schmidt’s Red-tailed Guenon
-Sea Lion
-Siamang
-Southern Three-Banded Armadillo
-Southern White Rhino
-Straw-colored Fruit Bat
-Swift Fox
-Tamandua
-Warthog
-White-Tailed Deer
-Zebra (Grant’s)
-American Alligator
-Anegada Island Iguana
-Armenian Viper
-Aruba Island Rattlesnake
-Black Mamba
-Boelen’s Python
-Coahuilan Box Turtle
-Copperhead
-Coral Snake
-CottonmouthCrocodile Monitor
-Diamondback Terrapin
-Eastern Diamondback Rattlesnake
-Fringed Leaf Tailed Gecko
-Galapagos Tortoise
-Gila Monster
-Green Anaconda
-Gulf Coast Ribbon Snake
-Hognosed Snake
-Indian Star TortoiseKomodo Dragon
-Lace Monitor
-Leopard Tortoise
-Malayan Gharial
-Panther Chameleon
-Radiated Tortoise
-Reticulated Python
-Texas Rat Snake
-Western Diamondback Rattlesnake
-Australian Lungfish
-Brain Coral
-Checkerboard Freshwater Stingray
-ClownfishGiant Pacific Octopus
-Green Moray Eel
-Gray Smoothound Shark
-Lined SeahorseMoon Jelly
-Red Lionfish
-Redbellied Piranha
+1/Anderson’s Newt
+2/Asian Climbing Toad
+3/Aquatic Caecilian
+4/Barton Springs Salamander
+5/Blue Poison Arrow Frog
+6/European Fire SalamanderFile-eared Tree Frog
+7/Giant Waxy Monkey Tree Frog
+8/Glass Frog
+9/Golden Mantella
+10/Hourglass Tree Frog
+11/Houston ToadLemur Tree Frog
+12/Mandarin Newt
+13/Panamanian Golden Frog
+14/Sabana Surinam Toad
+15/Sambava Tomato Frog
+16/Spine-headed Tree Frog
+17/African Pygmy Falcon
+18/African Spoonbill
+19/Attwater’s Prairie Chicken
+20/Bald Eagle
+21/Beautiful Fruit Dove
+22/Blue-Billed Curassow
+23/Blue-Throated Macaw
+24/Brown Pelican
+25/Chestnut-breasted Malkoha
+26/Chilean Flamingo
+27/Cinereous Vulture
+28/Double-wattled Cassowary
+29/Golden-headed Manakin
+30/Golden-headed Quetzal
+31/Green AracariGreen-winged Macaw
+32/Great Argus Pheasant
+33/Great Horned Owl
+34/Grey-winged Trumpeter
+35/Hammerkop
+36/Hooded Merganser
+37/Javan Green Peafowl
+38/Kagu
+39/King Vulture
+40/Lady Ross’s Turaco
+41/Laughing Kookaburra
+42/Micronesian Kingfisher
+43/Northern-helmeted Curassow
+44/Ostrich
+45/Pesquet’s ParrotPlush-crested Jay
+46/Pompadour Cotinga
+47/Red-billed Blue Magpie
+48/Red-crowned Crane
+49/Red-Fronted Macaw
+50/Rhinoceros Hornbill
+51/Shoebill Stork
+52/St. Vincent Amazon Parrot
+53/Waldrapp Ibis
+54/White-bellied Go-away Bird
+55/White-eared Catbird
+56/Wood Stork
+57/African Lion
+58/African Painted Dog
+59/Agile Gibbon
+60/Allen’s Swamp Monkey
+61/Andean Bear
+62/Ankole Cattle
+63/Asian Elephant
+64/Asian Small-clawed Otter
+65/Babirusa
+66/Baird’s Tapir
+67/Binturong
+68/Bongo
+69/Cheetah
+70/Chimpanzee
+71/Clouded Leopard
+72/Coquerel’s Sifaka
+73/Cotton-topped Tamarin
+74/Cougar
+75/Crowned Lemur
+76/Damara Mole-RatFossa
+77/Giant Anteater
+78/Giant Eland
+79/Goeldi’s Monkey
+80/Golden Lion Tamarin
+81/Greater Kudu
+82/Grizzly Bear
+83/Jaguar
+84/Malayan Tiger
+85/Mandrill
+86/Maned Wolf
+87/Masai Giraffe
+88/Meerkat
+89/Naked Mole-Rat
+90/Nigerian Dwarf Goat
+91/North American Porcupine
+92/Nyala Antelope
+93/Okapi
+94/OrangutanNorth American River Otter
+95/Patas Monkey
+96/Pied Tamarin
+97/Pygmy Marmoset
+98/Red-capped Mangabey
+99/Red-fronted Lemur
+100/Red Panda
+101/Ring-Tailed Lemur
+102/Schmidt’s Red-tailed Guenon
+103/Sea Lion
+104/Siamang
+105/Southern Three-Banded Armadillo
+106/Southern White Rhino
+107/Straw-colored Fruit Bat
+108/Swift Fox
+109/Tamandua
+110/Warthog
+111/White-Tailed Deer
+112/Zebra (Grant’s)
+113/American Alligator
+114/Anegada Island Iguana
+115/Armenian Viper
+116/Aruba Island Rattlesnake
+117/Black Mamba
+118/Boelen’s Python
+119/Coahuilan Box Turtle
+120/Copperhead
+121/Coral Snake
+122/CottonmouthCrocodile Monitor
+123/Diamondback Terrapin
+124/Eastern Diamondback Rattlesnake
+125/Fringed Leaf Tailed Gecko
+126/Galapagos Tortoise
+127/Gila Monster
+128/Green Anaconda
+129/Gulf Coast Ribbon Snake
+130/Hognosed Snake
+131/Indian Star TortoiseKomodo Dragon
+132/Lace Monitor
+133/Leopard Tortoise
+134/Malayan Gharial
+135/Panther Chameleon
+136/Radiated Tortoise
+137/Reticulated Python
+138/Texas Rat Snake
+139/Western Diamondback Rattlesnake
+140/Australian Lungfish
+141/Brain Coral
+142/Checkerboard Freshwater Stingray
+143/ClownfishGiant Pacific Octopus
+144/Green Moray Eel
+145/Gray Smoothound Shark
+146/Lined SeahorseMoon Jelly
+147/Red Lionfish
+148/Redbellied Piranha
