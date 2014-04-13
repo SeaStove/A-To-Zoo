@@ -1,163 +1,163 @@
-Aardvark
-African lion
-African wild dog
-Allen's swamp monkey
-Alpaca
-American beaver
-Amur leopard
- 		Amur tiger
- 		Andean bear
- 		Asian small-clawed otter
- 		Bactrian camel
- 		Baringo giraffe
- 		Black bear
- 		Black howler monkey
- 		Black-and-white colobus
- 		Bolivian gray titi monkey
- 		Brush-tailed bettong
- 		Cactus mouse
- 		Chimpanzee
- 		Cotton-top tamarin
- 		Crowned lemur
- 		De Brazza's monkey
- 		Domestic cow
- 		Domestic goat
- 		Domestic pig
- 		Dwarf mongoose
- 		Eastern black rhinoceros
- 		Egyptian fruit bat
- 		Eurasian lynx
- 		Fennec fox
- 		Francois' langur
- 		Goeldi's monkey
- 		Golden-headed lion tamarin
- 		Grant's gazelle
- 		Grevy's zebra
- 		Harbor seal
- 		Hoffmann's two-toed sloth
- 		Jacob sheep
- 		Jaguar
- 		Klipspringer
- 		La Plata three-banded armadillo
- 		Lesser Madagascar hedgehog tenrec
- 		Malayan sun bear
- 		Meerkat
- 		Moholi bushbaby
- 		Naked mole rat
- 		North American river otter
- 		Pallas' cat
- 		Parma wallaby
- 		Patagonian cavy
- 		Pied tamarin
- 		Polar bear
- 		Pony
- 		Puma
- 		Pygmy hippopotamus
- 		Pygmy slow loris
- 		Red kangaroo
- 		Red panda
- 		Red River Hog
- 		Red wolf
- 		Sand cat
- 		Serval
- 		Sichuan takin
- 		Spotted Hyena
- 		Straw-colored fruit bat
- 		Waterbuck
- 		Western lowland gorilla
- 		White-cheeked gibbon
- 		White-faced saki monkey
- 		White-lipped deer
-	Abdim's stork
- 		African spoonbill
- 		American kestrel
- 		Bald eagle
- 		Bali mynah
- 		Barn owl
- 		Black-necked stilt
- 		Blue-bellied roller
- 		Blue-crowned laughingthrush
- 		Blue-crowned motmot
- 		Blue-faced honeyeater
- 		Blue-gray tanager
- 		Blyth's hornbill
- 		Bourke’s parrot
- 		Chilean flamingo
- 		Cinereous vulture
- 		Collared finch-billed bulbul
- 		Crested wood partridge
- 		Domestic chicken
- 		Eastern screech owl
- 		Emerald starling
- 		European white stork
- 		Fairy bluebird
- 		Golden-breasted starling
- 		Green aracari
- 		Green woodhoopoe
- 		Green-naped pheasant pigeon
- 		Guam Micronesian kingfisher
- 		Guam rail
- 		Hadada ibis
- 		Hamerkop
- 		Himalayan monal
- 		Hooded merganser
- 		Hottentot teal
- 		Inca tern
- 		Jambu fruit dove
- 		Kenya Crested Guineafowl
- 		Laughing kookaburra
- 		Lesser green broadbill
- 		Mandarin duck
- 		Masked lapwing
- 		Masked lovebird
- 		Nicobar pigeon
- 		Northern pintail
- 		Ostrich
- 		Piping plover
- 		Red knot
- 		Red-billed hornbill
- 		Red-billed leiothrix
- 		Red-capped cardinal
- 		Ruddy duck
- 		Scarlet ibis
- 		Snowy egret
- 		Snowy owl
- 		Spotted dikkop
- 		Sunbittern
- 		Swan goose
- 		Tawny frogmouth
- 		Trumpeter swan
- 		White-Headed Buffalo Weaver
- 		White-lined tanager
- 		Wood duck
- 			Black tree monitor
- 		Blanding's turtle
- 		Caiman lizard
- 		Dumeril's ground boa
- 		Dwarf caiman
- 		Dwarf crocodile
- 		Eastern box turtle
- 		Eastern massasauga rattlesnake
- 		European glass lizard
- 		Great Plains ratsnake
- 		Green tree python
- 		Kenyan sand boa
- 		Madagascar Tree Boa
- 		Mexican beaded lizard
- 		Midland painted turtle
- 		Prehensile-tailed skink
- 		Red-footed tortoise
- 		Smooth green snake
- 		Spectacled caiman
- 		Spider tortoise
- 		Spotted turtle
- 		Standing's day gecko
- 		Wood turtle
- 		Yellow-spotted Amazon River turtle
- 			American toad
- 		Axolotl
- 		Dyeing poison arrow frog
- 		Emperor newt
- 		Mudpuppy
- 		Oriental fire-bellied toad
- 		Solomon Island leaf frog
+1/Aardvark
+2/African lion
+3/African wild dog
+4/Allen's swamp monkey
+5/Alpaca
+6/American beaver
+7/Amur leopard
+8/Amur tiger
+9/Andean bear
+10/Asian small-clawed otter
+11/Bactrian camel
+12/Baringo giraffe
+13/Black bear
+14/Black howler monkey
+15/Black-and-white colobus
+16/Bolivian gray titi monkey
+17/Brush-tailed bettong
+18/Cactus mouse
+19/Chimpanzee
+20/Cotton-top tamarin
+21/Crowned lemur
+22/De Brazza's monkey
+23/Domestic cow
+24/Domestic goat
+25/Domestic pig
+26/Dwarf mongoose
+27/Eastern black rhinoceros
+28/Egyptian fruit bat
+29/Eurasian lynx
+30/Fennec fox
+31/Francois' langur
+32/Goeldi's monkey
+33/Golden-headed lion tamarin
+34/Grant's gazelle
+35/Grevy's zebra
+36/Harbor seal
+37/Hoffmann's two-toed sloth
+38/Jacob sheep
+39/Jaguar
+40/Klipspringer
+41/La Plata three-banded armadillo
+42/Lesser Madagascar hedgehog tenrec
+43/Malayan sun bear
+44/Meerkat
+45/Moholi bushbaby
+46/Naked mole rat
+47/North American river otter
+48/Pallas' cat
+49/Parma wallaby
+50/Patagonian cavy
+51/Pied tamarin
+52/Polar bear
+53/Pony
+54/Puma
+55/Pygmy hippopotamus
+56/Pygmy slow loris
+57/Red kangaroo
+58/Red panda
+59/Red River Hog
+60/Red wolf
+61/Sand cat
+62/Serval
+63/Sichuan takin
+64/Spotted Hyena
+65/Straw-colored fruit bat
+66/Waterbuck
+67/Western lowland gorilla
+68/White-cheeked gibbon
+69/White-faced saki monkey
+70/White-lipped deer
+71/Abdim's stork
+72/African spoonbill
+73/American kestrel
+74/Bald eagle
+75/Bali mynah
+76/Barn owl
+77/Black-necked stilt
+78/Blue-bellied roller
+79/Blue-crowned laughingthrush
+80/Blue-crowned motmot
+81/Blue-faced honeyeater
+82/Blue-gray tanager
+83/Blyth's hornbill
+84/Bourke’s parrot
+85/Chilean flamingo
+86/Cinereous vulture
+87/Collared finch-billed bulbul
+88/Crested wood partridge
+89/Domestic chicken
+90/Eastern screech owl
+91/Emerald starling
+92/European white stork
+93/Fairy bluebird
+94/Golden-breasted starling
+95/Green aracari
+96/Green woodhoopoe
+97/Green-naped pheasant pigeon
+98/Guam Micronesian kingfisher
+99/Guam rail
+100/Hadada ibis
+101/Hamerkop
+102/Himalayan monal
+103/Hooded merganser
+104/Hottentot teal
+105/Inca tern
+106/Jambu fruit dove
+107/Kenya Crested Guineafowl
+108/Laughing kookaburra
+109/Lesser green broadbill
+110/Mandarin duck
+111/Masked lapwing
+112/Masked lovebird
+113/Nicobar pigeon
+114/Northern pintail
+115/Ostrich
+116/Piping plover
+117/Red knot
+118/Red-billed hornbill
+119/Red-billed leiothrix
+120/Red-capped cardinal
+121/Ruddy duck
+122/Scarlet ibis
+123/Snowy egret
+124/Snowy owl
+125/Spotted dikkop
+126/Sunbittern
+127/swan goose
+128/Tawny frogmouth
+129/Trumpeter swan
+130/White-Headed Buffalo Weaver
+131/White-lined tanager
+132/Wood duck
+133/Black tree monitor
+134/Blanding's turtle
+135/Caiman lizard
+136/Dumeril's ground boa
+137/Dwarf caiman
+138/Dwarf crocodile
+139/Eastern box turtle
+140/Eastern massasauga rattlesnake
+141/European glass lizard
+142/Great Plains ratsnake
+143/Green tree python
+144/Kenyan sand boa
+145/Madagascar Tree Boa
+146/Mexican beaded lizard
+147/Midland painted turtle
+148/Prehensile-tailed skink
+149/Red-footed tortoise
+150/Smooth green snake
+151/Spectacled caiman
+152/Spider tortoise
+153/Spotted turtle
+154/Standing's day gecko
+155/Wood turtle
+156/Yellow-spotted Amazon River turtle
+157/American toad
+158/Axolotl
+159/Dyeing poison arrow frog
+160/Emperor newt
+161/Mudpuppy
+162/Oriental fire-bellied toad
+163/Solomon Island leaf frog
