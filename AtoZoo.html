@@ -29,7 +29,7 @@
     var zooChicago = new google.maps.LatLng(41.97340,-87.70078);
     var zooSanDiego = new google.maps.LatLng(32.73532,-117.14905);
     var zooColumbus = new google.maps.LatLng(40.15620,-83.11834);
-    var zooBrookfield = new google.maps.LatLng(41.83410,-87.83350);
+    var zooWoodland = new google.maps.LatLng(47.66839,-122.35087);
     var zooSmithsonian = new google.maps.LatLng(38.92982,-77.04732);
     var zooComo = new google.maps.LatLng(44.98263,-93.15423);
     var zooBronx = new google.maps.LatLng(40.85059,-73.87700);
@@ -42,7 +42,7 @@
     var infowindowchicago = new google.maps.InfoWindow();
     var infowindowsandiego = new google.maps.InfoWindow();
     var infowindowcolumbus = new google.maps.InfoWindow();
-    var infowindowbrookfield = new google.maps.InfoWindow();
+    var infowindowwoodland = new google.maps.InfoWindow();
     var infowindowsmithsonian = new google.maps.InfoWindow();
     var infowindowcomo = new google.maps.InfoWindow();
     var infowindowbronx = new google.maps.InfoWindow();
@@ -86,9 +86,9 @@
       });
 
 
-      var markerBrookfield = new google.maps.Marker({
+      var markerWoodland = new google.maps.Marker({
         animation:google.maps.Animation.DROP,
-        position:zooBrookfield,
+        position:zooWoodland,
       });
 
 
@@ -175,14 +175,14 @@
       '</div>';
 
 
-      var contentBrookfield = '<div id="content">'+
+      var contentWoodland = '<div id="content">'+
       '<div id="siteNotice">'+
       '</div>'+
       '<div id="bodyContent">'+
-      '<p><b>Brookfield</b></p>'+
-      '<p><a href="http://www.brookfieldzoo.org/czs/flash/landing/index.html">'+
-      'Brookfield Zoo</a> '+
-      '<p><a href="https://www.google.com/maps/place/Brookfield+Zoo/@41.834103,-87.833503,17z/data=!3m1!4b1!4m2!3m1!1s0x880e35e9b4e0ef2f:0x1b60a35fd648cf95">'+
+      '<p><b>Woodland</b></p>'+
+      '<p><a href="https://www.zoo.org/">'+
+      'Woodland Park Zoo</a> '+
+      '<p><a href="https://www.google.com/maps/place/Woodland+Park+Zoo/@47.668518,-122.350696,17z/data=!3m1!4b1!4m2!3m1!1s0x549014494aaed4c9:0x7c622dc1f941a8b2">'+
       'Directions</a> '
       '</div>'+
       '</div>';
@@ -258,7 +258,7 @@
       makeInfoWindowEvent(map, infowindowchicago, contentChicago, markerChicago);
       makeInfoWindowEvent(map, infowindowsandiego, contentSanDiego, markerSanDiego);
       makeInfoWindowEvent(map, infowindowcolumbus, contentColumbus, markerColumbus);
-      makeInfoWindowEvent(map, infowindowbrookfield, contentBrookfield, markerBrookfield);
+      makeInfoWindowEvent(map, infowindowwoodland, contentBrookfield, markerBrookfield);
       makeInfoWindowEvent(map, infowindowsmithsonian, contentSmithsonian, markerSmithsonian);
       makeInfoWindowEvent(map, infowindowcomo, contentComo, markerComo);
       makeInfoWindowEvent(map, infowindowbronx, contentBronx, markerBronx);
@@ -318,10 +318,10 @@
 
 
     function toggleBounce() {
-      if (markerBrookfield.getAnimation() != null) {
-        markerBrookfield.setAnimation(null);
+      if (markerWoodland.getAnimation() != null) {
+        markerWoodland.setAnimation(null);
       } else {
-        markerBrookfield.setAnimation(google.maps.Animation.BOUNCE);
+        markerWoodland.setAnimation(google.maps.Animation.BOUNCE);
       }
     }
 
@@ -396,24 +396,24 @@
     </nav>
 
 
-	  <div class="container" align="center">
-		  <h1><FONT FACE="palatino">A to Zoo</FONT></h1>
-	  </div>
+    <div class="container" align="center">
+      <h1><FONT FACE="palatino">A to Zoo</FONT></h1>
+    </div>
 
 
-	  <div class="row">
-	  	<div class="col-md-2 col-md-offset-5">
-		  	<form class="navbar-form navbar-left" role="search"action="search.php" method="get">
-			  	<div class="form-group">
-			  		<input type="text" name="keyname" class="form-control" placeholder="Enter an animal">
-			  	</div>
-			  	<button type="submit" class="btn btn-default">Search</button>
-			  </form>
-	  	</div>
-	  </div>
+    <div class="row">
+      <div class="col-md-2 col-md-offset-5">
+        <form class="navbar-form navbar-left" role="search"action="search.php" method="get">
+          <div class="form-group">
+            <input type="text" name="keyname" class="form-control" placeholder="Enter an animal">
+          </div>
+          <button type="submit" class="btn btn-default">Search</button>
+        </form>
+      </div>
+    </div>
 
 
-	  <br/>
+    <br/>
 
 
 
