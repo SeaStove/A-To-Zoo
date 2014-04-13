@@ -1,482 +1,482 @@
-Centipedes
-Crustaceans
-Insects
-Bullet Ant
-Carpenter Bee
-Honey Pot Ant
-Honeybee
-Leaf Cutter Ant
-Velvet Ant
-Termites
-True Flies
-American Cockroach
-Cave Cricket
-Costa Rican Katydid
-Cricket
-False Katydid
-Flower Mantis
-German Cockroach
-Giant Cockroach
-Giant Prickly Stick
-Giant Spiny Stick
-Hissing Cockroach
-Javanese Leaf Insect
-Lubber Grasshopper
-Malagasy Blue-spot Mantis
-Malaysian Walkingstick
-Mole Cricket
-Northern Walkingstick
-Orchid Mantis
-Peruvian Firestick
-Praying Mantis
-Vietnamese Walkingstick
-Beetles
-African Jewel Beetle
-American Burying Beetle
-American Carrion Beetle
-Arizona Jewel Beetle
-Atlas Beetle
-Bess Beetle
-Cactus Longhorn Beetle
-Confused Flour Beetle
-Darkling Beetle
-Dogbane Leaf Beetle
-Eastern Hercules Beetle
-Fiery Searcher
-Flamboyant Flower Beetle
-Giant High Plains Tiger Beetle
-Giant Water Scavenger Beetle
-Green Metallic Scarab Beetle
-Hide Beetle
-Jade-headed Beetle
-Ladybug Beetle
-Margined Burying Beetle
-Pedunculate Ground Beetle
-Sunburst Diving Beetle
-Tumblebug
-Whirligig Beetle
-Butterflies and Moths
-Blue Morpho
-Silkworm
-Cicadas, Cochineal Insects, Aphids
-Cochineal Insect
-Scale Insect
-True Bugs
-Backswimmer
-Ferocious Water Bug
-Milkweed Bug
-Red Spot Assassin Bug
-Water Scorpion
-Millipedes
-Desert Millipede
-Giant African Millipede
-Missouri Millipede
-Snails, Slugs, Octopuses
-Apple Snail
-Banana Slug
-Partula Snail
-Spiders and Scorpions
-Bark Scorpion
-Black and Yellow Argiope Spider
-Black Widow
-Brazilian Salmon Pink Birdeater
-Brazilian Whiteknee Tarantula
-Brown Recluse Spider
-Brown Widow
-Chilean Rose Hair Tarantula
-Cobalt Blue Tarantula
-Desert Hairy Scorpion
-Devil Stripe-tailed Scorpion
-Egyptian Fat-tailed Scorpion
-Emperor Scorpion
-Golden Silk Spider
-Green Lynx Spider
-House Spider
-Indian Ornamental Tarantula
-Long-bodied Cellar Spider
-Madagascar Orb-weaving Spider
-Missouri Tarantula
-Nursery Web Spider
-Peruvian Pink-toe Tarantula
-Red-kneed Tarantula
-Silver Argiope
-South African Flat Rock Scorpion
-Spiny Orb-weaving Spider
-Sri Lankan Ornamental Tarantula
-Stripe-kneed Tarantula
-Tailless Whip Scorpion
-Texas Gold Tarantula
-Trapdoor Spider
-Whip Scorpion
-Worms, Leeches
-Earthworm
-Medicinal Leech
-Reptiles
-Alligators and Crocodiles
-American Alligator
-Chinese Alligator
-Cuban Crocodile
-Dwarf Caiman
-False Gharial
-Spectacled Caiman
-Yacare Caiman
-Banded Day Gecko
-Banded Gila Monster
-Black Tree Monitor
-Blue Spiny Lizard
-Blue-tongued Skink
-Chinese Crocodile Lizard
-Crocodile Monitor
-Fiji Banded Iguana
-Green Iguana
-Henkel's Leaftailed Gecko
-Inland Bearded Dragon
-Leopard Gecko
-Mexican Alligator Lizard
-Mexican Beaded Lizard
-New Caledonia Gecko
-New Caledonia Giant Gecko
-New Guinea Crocodile Skink
-Rhinoceros Iguana
-Savanna Monitor
-Scheltopusik
-Solomon Island Prehensile-tailed Skink
-Warren's Girdled Lizard
-Western Chuckwalla
-Anatolian Viper
-Angolan Dwarf Python
-Armenian Viper
-Aruba Island Rattlesnake
-Ball Python
-Black Milk Snake
-Black Rat Snake
-Black-headed Python
-Black-speckled Palm-pitviper
-Boelen's Python
-Bolkar Viper
-Bornean Leaf-nosed Pitviper
-Brazilian Rainbow Boa
-Burmese Python
-Caucasus Viper
-Central American Bushmaster
-Central Asian Cobra
-Corn Snake
-Dumeril's Boa
-Eastern Diamondback Rattlesnake
-Emerald Tree Boa
-Fea's Viper
-Grand Canyon Rattlesnake
-Great Basin Gopher Snake
-Green Anaconda
-Green Tree Python
-Jamaican Boa
-King Cobra
-Lataste's Viper
-Leaf-nosed Viper
-Madagascar Ground Boa
-Madagascar Tree Boa
-Massasauga Rattlesnake
-Mexican Lance-headed Rattlesnake
-Moorish Viper
-Mt. Mang Pitviper
-Northern Death Adder
-Ocellate Mountain Viper
-Osage Copperhead
-Philippine Pitviper
-Prairie Kingsnake
-Red-tailed Boa Constrictor
-Reticulated Python
-Ridgenosed Rattlesnake
-Rosy Boa
-Sawu Python
-Side-striped Palm-pitviper
-Southern Twig Snake
-Speckled Forest Pitviper
-Stuart's Milk Snake
-Szechwan Speckled Pitviper
-Timber Rattlesnake
-West African Gaboon Viper
-Western Cottonmouth
-Western Pygmy Rattlesnake
-Yangtze Mamushi
-Yellow-blotched Palm-pitviper
-Turtles and Tortoises
-African Pancake Tortoise
-Aldabra Tortoise
-Alligator Snapping Turtle
-Arakan Forest Turtle
-Asian Giant Pond Turtle
-Balkan Hermann's Tortoise
-Box Turtle
-Cape Speckled Padloper Tortoise
-Central American River Turtle
-Common Map Turtle
-Common Musk Turtle
-Egyptian Tortoise
-Elongated Tortoise
-Galapagos Tortoise
-Gopher Tortoise
-Leopard Tortoise
-McCord's Box Turtle
-Murray River Turtle
-Narrow-headed Softshell Turtle
-Northern Spider Tortoise
-Pig-nosed Turtle
-Radiated Tortoise
-Red-bellied Short-necked Turtle
-South African Bowsprit Tortoise
-South American Yellow-foot Tortoise
-Spiny Softshell Turtle
-Spotted Turtle
-Star Tortoise
-Vietnamese Big-headed Turtle
-List All Reptiles
-Amphibians
-Caecilians
-Frogs and Toads
-American Bullfrog
-American Toad
-European Green Toad
-Giant Marine Toad
-Golden Mantella
-Green-and-black Poison Dart Frog
-Mountain Chicken
-Panamanian Golden Frog
-Plains Leopard Frog
-Puerto Rican Crested Toad
-Surinam Toad
-Tomato Frog
-Vietnamese Moss Frog
-Waxy Tree Frog
-White's Tree Frog
-Wyoming Toad
-Salamanders and Newts
-Alligator Newt
-Blue-tailed Fire-bellied Newt
-Emperor Newt
-Fire Salamander
-Hellbender
-Iberian Ribbed Newt
-Marbled Salamander
-Mudpuppy
-Three-toed Amphiuma
-Tiger Salamander
-Western Lesser Siren
-Freshwater Catfish
-Cranes, trumpeters
-East African Crowned Crane
-Grey-winged Trumpeter
-Sarus Crane
-Stanley Crane
-White-naped Crane
-Gulls, plovers, thick-knees, puffins
-Blacksmith Plover
-Cape Thick-knee
-Horned Puffin
-Tufted Puffin
-Herons, flamingos, ibis, spoonbills, egrets, storks
-Black-crowned Night Heron
-Yellow-crowned Night Heron
-Caribbean Flamingo
-Cattle Egret
-Marabou Stork
-Roseate Spoonbill
-Saddlebill Stork
-Snowy Egret
-White Ibis
-White Stork
-White-faced Ibis
-Kingfishers, hornbills, bee-eaters
-Blue-crowned Motmot
-Papuan Hornbill
-Carmine Bee-eater
-Great Hornbill
-Kookaburra
-Micronesian Kingfisher
-Rhinoceros Hornbill
-Trumpeter Hornbill
-Nightjars, frogmouths, whippoorwills
-Tawny Frogmouth
-Ostriches, emus, tinamous
-Emu
-Ostrich
-Owls
-Barred Owl
-Eastern Screech Owl
-Great Horned Owl
-Long-eared Owl
-Spectacled Owl
-Parrots
-Blue-and-yellow Macaw
-Blue-crowned Conure
-Hawk-headed Parrot
-Hyacinth Macaw
-Scarlet Macaw
-Penguins
-Gentoo Penguin
-Humboldt Penguin
-King Penguin
-Rockhopper Penguin
-Perching birds
-Bali Mynah
-Blue-faced Honeyeater
-Collie's Jay
-Common Crow
-Golden-breasted Starling
-Magpie Robin
-Orange Weaver Finch
-Plush-crested Jay
-Red-billed Blue Magpie
-Red-billed Leiothrix
-Society Finch
-White-crested Laughing Thrush
-White-headed Buffalo Weaver
-Zebra Finch
-Pheasants, Curassows, Guans
-Bamboo Partridge
-Cabot's Tragopan
-Chicken
-Crested Wood Partridge
-Golden Pheasant
-Helmeted Curassow
-Helmeted Guineafowl
-Horned Guan
-Northern Bobwhite Quail
-Palawan Peacock Pheasant
-Piping Guan
-Vulturine Guineafowl
-Pigeons, doves
-Bleeding Heart Dove
-Chestnut-bellied Sandgrouse
-Domestic Pigeon
-Marianas Fruit Dove
-Ring-necked Dove
-Turacos, roadrunners
-Guira Cuckoo
-White-cheeked Turaco
-White-crested Turaco
-Vultures, hawks, eagles
-American Kestrel
-Bald Eagle
-Bateleur Eagle
-Cinereous Vulture
-Harris' Hawk
-King Vulture
-Red-tailed Hawk
-Waterfowl
-American White Pelican
-American Wood Duck
-Bar-headed Goose
-Black-necked Swan
-Blue-winged Teal
-Bufflehead Duck
-Canvasback
-Crested Screamer
-Double-crested Cormorant
-Hooded Merganser
-King Eider
-Northern Pintail Duck
-Northern Shoveler
-Ruddy Duck
-Swan Goose
-Woodpeckers, toucans
-Bearded Barbet
-Toco Toucan
-List All Birds
-Mammals
-Anteaters, Armadillos
-Giant Anteater
-Southern Three-banded Armadillo
-Aardvark
-Egg-laying Mammals
-Hedgehogs
-Rabbits
-Carnivores
-Andean Bear
-Amur Leopard
-Amur Tiger
-Bat-eared Fox
-Bush Dog
-Cheetah
-Dwarf Mongoose
-European Polecat
-Fennec Fox
-Grizzly Bear
-Jaguar
-Kinkajou
-Lion
-Malayan Sun Bear
-North American River Otter
-Puma
-Red Panda
-Slender-tailed Meerkat
-Snow Leopard
-Spotted Hyena
-Elephants
-Hoofed Mammals
-Addax
-Babirusa
-Bactrian Camel
-Banteng
-Black Rhinoceros
-Central Chinese Goral
-Chacoan Peccary
-Cotswold Sheep
-Domestic Goat
-Dwarf Zebu
-Gerenuk
-Grevy's Zebra
-Hippopotamus
-Indian Muntjac
-Lesser Kudu
-Mountain Bongo
-Okapi
-Red-flanked Duiker
-Red River Hog
-Reticulated Giraffe
-Soemmerring's Gazelle
-Somali Wild Ass
-Speke's Gazelle
-Sichuan Takin
-Transcaspian Urial
-Visayan Warty Pig
-Lemurs, Monkeys, Apes
-Allen's Swamp Monkey
-Black and White Colobus Monkey
-Black and White Ruffed Lemur
-Black Lemur
-Black-handed Spider Monkey
-Chimpanzee
-Coquerel's Sifaka
-Cotton-top Tamarin
-Francois Langur
-Goeldi's Monkey
-Golden Lion Tamarin
-Lion-tailed Macaque
-Mongoose Lemur
-Ring-tailed Lemur
-Spectacled Langur
-Sumatran Orangutan
-Western Lowland Gorilla
-White-faced Saki
-Pouched Mammals
-Matschie's Tree Kangaroo
-Opossum
-Red Kangaroo
-Tammar Wallaby
-Rodents
-Black-tailed Prairie Dog
-Capybara
-Chinchilla
-Degu
-Guinea Pig
-Kangaroo Rat
-Mexican Hairy Porcupine
-Naked Mole Rat
-Prevost's Squirrel
-Springhaas
-St. Vincent's Agouti
-Woodchuck
-Sea Lions, Seals
-California Sea Lion
-Harbor Seal
+1/Centipedes
+2/Crustaceans
+3/Insects
+4/Bullet Ant
+5/Carpenter Bee
+6/Honey Pot Ant
+7/Honeybee
+8/Leaf Cutter Ant
+9/Velvet Ant
+10/Termites
+11/True Flies
+12/American Cockroach
+13/Cave Cricket
+14/Costa Rican Katydid
+15/Cricket
+16/False Katydid
+17/Flower Mantis
+18/German Cockroach
+19/Giant Cockroach
+20/Giant Prickly Stick
+21/Giant Spiny Stick
+22/Hissing Cockroach
+23/Javanese Leaf Insect
+24/Lubber Grasshopper
+25/Malagasy Blue-spot Mantis
+26/Malaysian Walkingstick
+27/Mole Cricket
+28/Northern Walkingstick
+29/Orchid Mantis
+30/Peruvian Firestick
+31/Praying Mantis
+32/Vietnamese Walkingstick
+33/Beetles
+34/African Jewel Beetle
+35/American Burying Beetle
+36/American Carrion Beetle
+37/Arizona Jewel Beetle
+38/Atlas Beetle
+39/Bess Beetle
+40/Cactus Longhorn Beetle
+41/Confused Flour Beetle
+42/Darkling Beetle
+43/Dogbane Leaf Beetle
+44/Eastern Hercules Beetle
+45/Fiery Searcher
+46/Flamboyant Flower Beetle
+47/Giant High Plains Tiger Beetle
+48/Giant Water Scavenger Beetle
+49/Green Metallic Scarab Beetle
+50/Hide Beetle
+51/Jade-headed Beetle
+52/Ladybug Beetle
+53/Margined Burying Beetle
+54/Pedunculate Ground Beetle
+55/Sunburst Diving Beetle
+56/Tumblebug
+57/Whirligig Beetle
+58/Butterflies
+59/Moths
+60/Silkworm
+61/Cicadas, Cochineal Insects, Aphids
+62/Cochineal Insect
+63/Scale Insect
+64/True Bugs
+65/Backswimmer
+66/Ferocious Water Bug
+67/Milkweed Bug
+68/Red Spot Assassin Bug
+69/Water Scorpion
+70/Millipedes
+71/Desert Millipede
+72/Giant African Millipede
+73/Missouri Millipede
+74/Snails, Slugs, Octopuses
+75/Apple Snail
+76/Banana Slug
+77/Partula Snail
+78/Spiders and Scorpions
+79/Bark Scorpion
+80/Black and Yellow Argiope Spider
+81/Black Widow
+82/Brazilian Salmon Pink Birdeater
+83/Brazilian Whiteknee Tarantula
+84/Brown Recluse Spider
+85/Brown Widow
+86/Chilean Rose Hair Tarantula
+87/Cobalt Blue Tarantula
+88/Desert Hairy Scorpion
+89/Devil Stripe-tailed Scorpion
+90/Egyptian Fat-tailed Scorpion
+91/Emperor Scorpion
+92/Golden Silk Spider
+93/Green Lynx Spider
+94/House Spider
+95/Indian Ornamental Tarantula
+96/Long-bodied Cellar Spider
+97/Madagascar Orb-weaving Spider
+98/Missouri Tarantula
+99/Nursery Web Spider
+100/Peruvian Pink-toe Tarantula
+101/Red-kneed Tarantula
+102/Silver Argiope
+103/South African Flat Rock Scorpion
+104/Spiny Orb-weaving Spider
+105/Sri Lankan Ornamental Tarantula
+106/Stripe-kneed Tarantula
+107/Tailless Whip Scorpion
+108/Texas Gold Tarantula
+109/Trapdoor Spider
+110/Whip Scorpion
+111/Worms, Leeches
+112/Earthworm
+113/Medicinal Leech
+114/Reptiles
+115/Alligators and Crocodiles
+116/American Alligator
+117/Chinese Alligator
+118/Cuban Crocodile
+119/Dwarf Caiman
+120/False Gharial
+121/Spectacled Caiman
+122/Yacare Caiman
+123/Banded Day Gecko
+124/Banded Gila Monster
+125/Black Tree Monitor
+126/Blue Spiny Lizard
+127/Blue-tongued Skink
+128/Chinese Crocodile Lizard
+129/Crocodile Monitor
+130/Fiji Banded Iguana
+131/Green Iguana
+132/Henkel's Leaftailed Gecko
+133/Inland Bearded Dragon
+134/Leopard Gecko
+135/Mexican Alligator Lizard
+136/Mexican Beaded Lizard
+137/New Caledonia Gecko
+138/New Caledonia Giant Gecko
+139/New Guinea Crocodile Skink
+140/Rhinoceros Iguana
+141/Savanna Monitor
+142/Scheltopusik
+143/Solomon Island Prehensile-tailed Skink
+144/Warren's Girdled Lizard
+145/Western Chuckwalla
+146/Anatolian Viper
+147/Angolan Dwarf Python
+148/Armenian Viper
+149/Aruba Island Rattlesnake
+150/Ball Python
+151/Black Milk Snake
+152/Black Rat Snake
+153/Black-headed Python
+154/Black-speckled Palm-pitviper
+155/Boelen's Python
+156/Bolkar Viper
+157/Bornean Leaf-nosed Pitviper
+158/Brazilian Rainbow Boa
+159/Burmese Python
+160/Caucasus Viper
+161/Central American Bushmaster
+162/Central Asian Cobra
+163/Corn Snake
+164/Dumeril's Boa
+165/Eastern Diamondback Rattlesnake
+166/Emerald Tree Boa
+167/Fea's Viper
+168/Grand Canyon Rattlesnake
+169/Great Basin Gopher Snake
+170/Green Anaconda
+171/Green Tree Python
+172/Jamaican Boa
+173/King Cobra
+174/Lataste's Viper
+175/Leaf-nosed Viper
+176/Madagascar Ground Boa
+177/Madagascar Tree Boa
+178/Massasauga Rattlesnake
+179/Mexican Lance-headed Rattlesnake
+180/Moorish Viper
+181/Mt. Mang Pitviper
+182/Northern Death Adder
+183/Ocellate Mountain Viper
+184/Osage Copperhead
+185/Philippine Pitviper
+186/Prairie Kingsnake
+187/Red-tailed Boa Constrictor
+188/Reticulated Python
+189/Ridgenosed Rattlesnake
+190/Rosy Boa
+191/Sawu Python
+192/Side-striped Palm-pitviper
+193/Southern Twig Snake
+194/Speckled Forest Pitviper
+195/Stuart's Milk Snake
+196/Szechwan Speckled Pitviper
+197/Timber Rattlesnake
+198/West African Gaboon Viper
+199/Western Cottonmouth
+200/Western Pygmy Rattlesnake
+201/Yangtze Mamushi
+202/Yellow-blotched Palm-pitviper
+203/Turtles and Tortoises
+204/African Pancake Tortoise
+205/Aldabra Tortoise
+206/Alligator Snapping Turtle
+207/Arakan Forest Turtle
+208/Asian Giant Pond Turtle
+209/Balkan Hermann's Tortoise
+210/Box Turtle
+211/Cape Speckled Padloper Tortoise
+212/Central American River Turtle
+213/Common Map Turtle
+214/Common Musk Turtle
+215/Egyptian Tortoise
+216/Elongated Tortoise
+217/Galapagos Tortoise
+218/Gopher Tortoise
+219/Leopard Tortoise
+220/McCord's Box Turtle
+221/Murray River Turtle
+222/Narrow-headed Softshell Turtle
+223/Northern Spider Tortoise
+224/Pig-nosed Turtle
+225/Radiated Tortoise
+226/Red-bellied Short-necked Turtle
+227/South African Bowsprit Tortoise
+228/South American Yellow-foot Tortoise
+229/Spiny Softshell Turtle
+230/Spotted Turtle
+231/Star Tortoise
+232/Vietnamese Big-headed Turtle
+233/List All Reptiles
+234/Amphibians
+235/Caecilians
+236/Frogs and Toads
+237/American Bullfrog
+238/American Toad
+239/European Green Toad
+240/Giant Marine Toad
+241/Golden Mantella
+242/Green-and-black Poison Dart Frog
+243/Mountain Chicken
+244/Panamanian Golden Frog
+245/Plains Leopard Frog
+246/Puerto Rican Crested Toad
+247/Surinam Toad
+248/Tomato Frog
+249/Vietnamese Moss Frog
+250/Waxy Tree Frog
+251/White's Tree Frog
+252/Wyoming Toad
+253/Salamanders and Newts
+254/Alligator Newt
+255/Blue-tailed Fire-bellied Newt
+256/Emperor Newt
+257/Fire Salamander
+258/Hellbender
+259/Iberian Ribbed Newt
+260/Marbled Salamander
+261/Mudpuppy
+262/Three-toed Amphiuma
+263/Tiger Salamander
+264/Western Lesser Siren
+265/Freshwater Catfish
+266/Cranes, trumpeters
+267/East African Crowned Crane
+268/Grey-winged Trumpeter
+269/Sarus Crane
+270/Stanley Crane
+271/White-naped Crane
+272/Gulls, plovers, thick-knees, puffins
+273/Blacksmith Plover
+274/Cape Thick-knee
+275/Horned Puffin
+276/Tufted Puffin
+277/Herons, flamingos, ibis, spoonbills, egrets, storks
+278/Black-crowned Night Heron
+279/Yellow-crowned Night Heron
+280/Caribbean Flamingo
+281/Cattle Egret
+282/Marabou Stork
+283/Roseate Spoonbill
+284/Saddlebill Stork
+285/Snowy Egret
+286/White Ibis
+287/White Stork
+288/White-faced Ibis
+289/Kingfishers, hornbills, bee-eaters
+290/Blue-crowned Motmot
+291/Papuan Hornbill
+292/Carmine Bee-eater
+293/Great Hornbill
+294/Kookaburra
+295/Micronesian Kingfisher
+296/Rhinoceros Hornbill
+297/Trumpeter Hornbill
+298/Nightjars, frogmouths, whippoorwills
+299/Tawny Frogmouth
+300/Ostriches, emus, tinamous
+301/Emu
+302/Ostrich
+303/Owls
+304/Barred Owl
+305/Eastern Screech Owl
+306/Great Horned Owl
+307/Long-eared Owl
+308/Spectacled Owl
+309/Parrots
+310/Blue-and-yellow Macaw
+311/Blue-crowned Conure
+312/Hawk-headed Parrot
+313/Hyacinth Macaw
+314/Scarlet Macaw
+315/Penguins
+316/Gentoo Penguin
+317/Humboldt Penguin
+318/King Penguin
+319/Rockhopper Penguin
+320/Perching birds
+321/Bali Mynah
+322/Blue-faced Honeyeater
+323/Collie's Jay
+324/Common Crow
+325/Golden-breasted Starling
+326/Magpie Robin
+327/Orange Weaver Finch
+328/Plush-crested Jay
+329/Red-billed Blue Magpie
+330/Red-billed Leiothrix
+331/Society Finch
+332/White-crested Laughing Thrush
+333/White-headed Buffalo Weaver
+334/Zebra Finch
+335/Pheasants, Curassows, Guans
+336/Bamboo Partridge
+337/Cabot's Tragopan
+338/Chicken
+339/Crested Wood Partridge
+340/Golden Pheasant
+341/Helmeted Curassow
+342/Helmeted Guineafowl
+343/Horned Guan
+344/Northern Bobwhite Quail
+345/Palawan Peacock Pheasant
+346/Piping Guan
+347/Vulturine Guineafowl
+348/Pigeons, doves
+349/Bleeding Heart Dove
+350/Chestnut-bellied Sandgrouse
+351/Domestic Pigeon
+352/Marianas Fruit Dove
+353/Ring-necked Dove
+354/Turacos, roadrunners
+355/Guira Cuckoo
+356/White-cheeked Turaco
+357/White-crested Turaco
+358/Vultures, hawks, eagles
+359/American Kestrel
+360/Bald Eagle
+361/Bateleur Eagle
+362/Cinereous Vulture
+363/Harris' Hawk
+364/King Vulture
+365/Red-tailed Hawk
+366/Waterfowl
+367/American White Pelican
+368/American Wood Duck
+369/Bar-headed Goose
+370/Black-necked Swan
+371/Blue-winged Teal
+372/Bufflehead Duck
+373/Canvasback
+374/Crested Screamer
+375/Double-crested Cormorant
+376/Hooded Merganser
+377/King Eider
+378/Northern Pintail Duck
+379/Northern Shoveler
+380/Ruddy Duck
+381/Swan Goose
+382/Woodpeckers, toucans
+383/Bearded Barbet
+384/Toco Toucan
+385/List All Birds
+386/Mammals
+387/Anteaters, Armadillos
+388/Giant Anteater
+389/Southern Three-banded Armadillo
+390/Aardvark
+391/Egg-laying Mammals
+392/Hedgehogs
+393/Rabbits
+394/Carnivores
+395/Andean Bear
+396/Amur Leopard
+397/Amur Tiger
+398/Bat-eared Fox
+399/Bush Dog
+400/Cheetah
+401/Dwarf Mongoose
+402/European Polecat
+403/Fennec Fox
+404/Grizzly Bear
+405/Jaguar
+406/Kinkajou
+407/Lion
+408/Malayan Sun Bear
+409/North American River Otter
+410/Puma
+411/Red Panda
+412/Slender-tailed Meerkat
+413/Snow Leopard
+414/Spotted Hyena
+415/Elephants
+416/Hoofed Mammals
+417/Addax
+418/Babirusa
+419/Bactrian Camel
+420/Banteng
+421/Black Rhinoceros
+422/Central Chinese Goral
+423/Chacoan Peccary
+424/Cotswold Sheep
+425/Domestic Goat
+426/Dwarf Zebu
+427/Gerenuk
+428/Grevy's Zebra
+429/Hippopotamus
+430/Indian Muntjac
+431/Lesser Kudu
+432/Mountain Bongo
+433/Okapi
+434/Red-flanked Duiker
+435/Red River Hog
+436/Reticulated Giraffe
+437/Soemmerring's Gazelle
+438/Somali Wild Ass
+439/Speke's Gazelle
+440/Sichuan Takin
+441/Transcaspian Urial
+442/Visayan Warty Pig
+443/Lemurs, Monkeys, Apes
+444/Allen's Swamp Monkey
+445/Black and White Colobus Monkey
+446/Black and White Ruffed Lemur
+447/Black Lemur
+448/Black-handed Spider Monkey
+449/Chimpanzee
+450/Coquerel's Sifaka
+451/Cotton-top Tamarin
+452/Francois Langur
+453/Goeldi's Monkey
+454/Golden Lion Tamarin
+455/Lion-tailed Macaque
+456/Mongoose Lemur
+457/Ring-tailed Lemur
+458/Spectacled Langur
+459/Sumatran Orangutan
+460/Western Lowland Gorilla
+461/White-faced Saki
+462/Pouched Mammals
+463/Matschie's Tree Kangaroo
+464/Opossum
+465/Red Kangaroo
+466/Tammar Wallaby
+467/Rodents
+468/Black-tailed Prairie Dog
+469/Capybara
+470/Chinchilla
+471/Degu
+472/Guinea Pig
+473/Kangaroo Rat
+474/Mexican Hairy Porcupine
+475/Naked Mole Rat
+476/Prevost's Squirrel
+477/Springhaas
+478/St. Vincent's Agouti
+479/Woodchuck
+480/Sea Lions, Seals
+481/California Sea Lion
+482/Harbor Seal
