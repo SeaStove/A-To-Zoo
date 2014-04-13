@@ -1,7 +1,9 @@
 <?php
 
+
 //capture search term and remove spaces at its both ends if the is any
 $searchTerm = trim($_GET['keyname']);
+
 
 //check whether the name parsed is empty
 if($searchTerm == "")
@@ -10,42 +12,38 @@ if($searchTerm == "")
         exit();
 }
 
+
 //database connection info
 $host = "localhost"; //server
 $db = "atozoo"; //database name
 $user = "root"; //dabases user name
 $pwd = "in4000"; //password
 
+
 //connecting to server and creating link to database
 $link = mysqli_connect($host, $user, $pwd, $db)
         or die("Unable to connect to MYSQL.");
 
+
 //MYSQL search statement
-$query = "SELECT * FROM STLZoo WHERE animal LIKE '%$searchTerm%'";
-$query2 = "SELECT * FROM CHIZoo WHERE animal LIKE '%$searchTerm%'";
+$query = array("SELECT * FROM STLZoo WHERE animal LIKE '%$searchTerm%'", "SELECT * FROM CHIZoo WHERE animal LIKE '%$searchTerm%'"
+, "SELECT * FROM CHIZoo WHERE animal LIKE '%$searchTerm%'", "SELECT * FROM CHIZoo WHERE animal LIKE '%$searchTerm%'"
+, "SELECT * FROM CHIZoo WHERE animal LIKE '%$searchTerm%'", "SELECT * FROM CHIZoo WHERE animal LIKE '%$searchTerm%'"
+, "SELECT * FROM CHIZoo WHERE animal LIKE '%$searchTerm%'", "SELECT * FROM CHIZoo WHERE animal LIKE '%$searchTerm%'"
+, "SELECT * FROM CHIZoo WHERE animal LIKE '%$searchTerm%'", "SELECT * FROM CHIZoo WHERE animal LIKE '%$searchTerm%'");
 
-$results = mysqli_query($link, $query);
-$results2 = mysqli_query($link, $query2);
-
-/* check whethere there were matching records in the table
-by counting the number of results returned */
-/*if(mysqli_num_rows($results) >= 1)
-{
-        $output = "";
-        while($row = mysqli_fetch_array($results))
-        {
-				
-                $output .= "ID: " . $row['id'] . "<br />";
-                $output .= "Animal: " . $row['Animal'] . "<br />";
-        }
-		echo $output;
-}
-else
-        echo "There was no matching record for the name " . $searchTerm;
-*/		
+$results = mysqli_query($link, $query[0]);
+$results2 = mysqli_query($link, $query[1]);
+$results3 = mysqli_query($link, $query[2]);
+$results4 = mysqli_query($link, $query[3]);
+$results5 = mysqli_query($link, $query[4]);
+$results6 = mysqli_query($link, $query[5]);
+$results7 = mysqli_query($link, $query[6]);
+$results8 = mysqli_query($link, $query[7]);
+$results9 = mysqli_query($link, $query[8]);
+$results10 = mysqli_query($link, $query[9]);
 ?> 
 
-<?php /*if(mysqli_num_rows($results) >= 1):*/ ?>
 <!doctype html>
 <html>
   <head>
@@ -53,8 +51,10 @@ else
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/site.css">
 
+
     <!-- Map -->
     <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+
 
     <style type="text/css">
       html { height: 90% }
@@ -69,6 +69,7 @@ else
     
     <script type="text/javascript">
 
+
     // Sets the coordinates of the zoos to a variable
     var zooStLouis = new google.maps.LatLng(38.63665,-90.29251);
     var zooChicago = new google.maps.LatLng(41.97340,-87.70078);
@@ -80,6 +81,7 @@ else
     var zooBronx = new google.maps.LatLng(40.85059,-73.87700);
     var zooDenver = new google.maps.LatLng(39.75045,-104.94910);
     var zooHouston = new google.maps.LatLng(29.71191,-95.39283);
+
 
     // Sets the variable for the info window
     var infowindowstlouis = new google.maps.InfoWindow();
@@ -93,12 +95,14 @@ else
     var infowindowdenver = new google.maps.InfoWindow();
     var infowindowhouston = new google.maps.InfoWindow();
 
+
     // This function initializes the map
     function initialize() {
       var mapOptions = {
         center: new google.maps.LatLng(37.5, -100),
         zoom: 5
       };
+
 
       var map = new google.maps.Map(document.getElementById("map-canvas"),
         mapOptions);
@@ -115,45 +119,54 @@ else
         position:zooChicago,
       });
 
+
       var markerSanDiego = new google.maps.Marker({
         animation:google.maps.Animation.DROP,
         position:zooSanDiego,
       })
+
 
       var markerColumbus = new google.maps.Marker({
         animation:google.maps.Animation.DROP,
         position:zooColumbus,
       })
 
+
       var markerBrookfield = new google.maps.Marker({
         animation:google.maps.Animation.DROP,
         position:zooBrookfield,
       })
+
 
       var markerSmithsonian = new google.maps.Marker({
         animation:google.maps.Animation.DROP,
         position:zooSmithsonian,
       })
 
+
       var markerComo = new google.maps.Marker({
         animation:google.maps.Animation.DROP,
         position:zooComo,
       })
+
 
       var markerBronx = new google.maps.Marker({
         animation:google.maps.Animation.DROP,
         position:zooBronx,
       })
 
+
       var markerDenver = new google.maps.Marker({
         animation:google.maps.Animation.DROP,
         position:zooDenver,
       })
 
+
       var markerHouston = new google.maps.Marker({
         animation:google.maps.Animation.DROP,
         position:zooHouston,
       })
+
 
       // Assigning content to the contentString variables
       var contentStLouis = '<div id="content">'+
@@ -168,6 +181,7 @@ else
       '</div>'+
       '</div>';
 
+
       var contentChicago = '<div id="content">'+
       '<div id="siteNotice">'+
       '</div>'+
@@ -179,6 +193,7 @@ else
       'Directions</a> '
       '</div>'+
       '</div>';
+
 
       var contentSanDiego = '<div id="content">'+
       '<div id="siteNotice">'+
@@ -192,6 +207,7 @@ else
       '</div>'+
       '</div>';
 
+
       var contentColumbus = '<div id="content">'+
       '<div id="siteNotice">'+
       '</div>'+
@@ -203,6 +219,7 @@ else
       'Directions</a> '
       '</div>'+
       '</div>';
+
 
       var contentBrookfield = '<div id="content">'+
       '<div id="siteNotice">'+
@@ -216,6 +233,7 @@ else
       '</div>'+
       '</div>';
 
+
       var contentSmithsonian = '<div id="content">'+
       '<div id="siteNotice">'+
       '</div>'+
@@ -227,6 +245,7 @@ else
       'Directions</a> '
       '</div>'+
       '</div>';
+
 
       var contentComo = '<div id="content">'+
       '<div id="siteNotice">'+
@@ -240,6 +259,7 @@ else
       '</div>'+
       '</div>';
 
+
       var contentBronx = '<div id="content">'+
       '<div id="siteNotice">'+
       '</div>'+
@@ -251,6 +271,7 @@ else
       'Directions</a> '
       '</div>'+
       '</div>';
+
 
       var contentDenver = '<div id="content">'+
       '<div id="siteNotice">'+
@@ -264,6 +285,7 @@ else
       '</div>'+
       '</div>';
 
+
       var contentHouston = '<div id="content">'+
       '<div id="siteNotice">'+
       '</div>'+
@@ -276,6 +298,7 @@ else
       '</div>'+
       '</div>';
 
+
       // Calling the function for the info window
       makeInfoWindowEvent(map, infowindowstlouis, contentStLouis, markerStLouis);
       makeInfoWindowEvent(map, infowindowchicago, contentChicago, markerChicago);
@@ -287,10 +310,44 @@ else
       makeInfoWindowEvent(map, infowindowbronx, contentBronx, markerBronx);
       makeInfoWindowEvent(map, infowindowdenver, contentDenver, markerDenver);
       makeInfoWindowEvent(map, infowindowhouston, contentHouston, markerHouston);
+	  
+	  <?php if(mysqli_num_rows($results) >= 1) : ?>
+		markerStLouis.setMap(map);
+	  <?php endif; ?>
+	  <?php if(mysqli_num_rows($results2) >= 1) : ?>
+		markerChicago.setMap(map);
+	  <?php endif; ?>
+	  <?php if(mysqli_num_rows($results3) >= 1) : ?>
+		markerSanDiego.setMap(map);
+	  <?php endif; ?>
+	  <?php if(mysqli_num_rows($results4) >= 1) : ?>
+		markerColumbus.setMap(map);
+	  <?php endif; ?>
+	  <?php if(mysqli_num_rows($results5) >= 1) : ?>
+		markerBrookfield.setMap(map);
+	  <?php endif; ?>
+	  <?php if(mysqli_num_rows($results6) >= 1) : ?>
+		markerSmithosonian.setMap(map);
+	  <?php endif; ?>
+	  <?php if(mysqli_num_rows($results7) >= 1) : ?>
+		markerComo.setMap(map);
+	  <?php endif; ?>
+	  <?php if(mysqli_num_rows($results8) >= 1) : ?>
+		markerBronx.setMap(map);
+	  <?php endif; ?>
+	  <?php if(mysqli_num_rows($results9) >= 1) : ?>
+		markerDenver.setMap(map);
+	  <?php endif; ?>
+	  <?php if(mysqli_num_rows($results10) >= 1) : ?>
+		markerHouston.setMap(map);
+	  <?php endif; ?>
+
 
     }
 
+
     google.maps.event.addDomListener(window, 'load', initialize);
+
 
     // This function handles the clicks for the info windows
     function makeInfoWindowEvent(map, infowindow, contentString, marker) {
@@ -300,6 +357,7 @@ else
       });
     }
 
+
     function toggleBounce() {
       if (markerStLouis.getAnimation() != null) {
         markerStLouis.setAnimation(null);
@@ -307,6 +365,7 @@ else
         markerStLouis.setAnimation(google.maps.Animation.BOUNCE);
       }
     }
+
 
     function toggleBounce() {
       if (markerChicago.getAnimation() != null) {
@@ -316,6 +375,7 @@ else
       }
     }
 
+
     function toggleBounce() {
       if (markerSanDiego.getAnimation() != null) {
         markerSanDiego.setAnimation(null);
@@ -323,6 +383,7 @@ else
         markerSanDiego.setAnimation(google.maps.Animation.BOUNCE);
       }
     }
+
 
     function toggleBounce() {
       if (markerColumbus.getAnimation() != null) {
@@ -332,6 +393,7 @@ else
       }
     }
 
+
     function toggleBounce() {
       if (markerBrookfield.getAnimation() != null) {
         markerBrookfield.setAnimation(null);
@@ -339,6 +401,7 @@ else
         markerBrookfield.setAnimation(google.maps.Animation.BOUNCE);
       }
     }
+
 
     function toggleBounce() {
       if (markerSmithsonian.getAnimation() != null) {
@@ -348,6 +411,7 @@ else
       }
     }
 
+
     function toggleBounce() {
       if (markerComo.getAnimation() != null) {
         markerComo.setAnimation(null);
@@ -355,6 +419,7 @@ else
         markerComo.setAnimation(google.maps.Animation.BOUNCE);
       }
     }
+
 
     function toggleBounce() {
       if (markerBronx.getAnimation() != null) {
@@ -364,6 +429,7 @@ else
       }
     }
 
+
     function toggleBounce() {
       if (markerDenver.getAnimation() != null) {
         markerDenver.setAnimation(null);
@@ -371,6 +437,7 @@ else
         markerDenver.setAnimation(google.maps.Animation.BOUNCE);
       }
     }
+
 
     function toggleBounce() {
       if (markerHouston.getAnimation() != null) {
@@ -380,12 +447,16 @@ else
       }
     }
 
+
     </script>
+
 
     
 
+
   </head>
   <meta name="ROBOTS" content="NOINDEX, NOFOLLOW" />
+
 
   <!-- Search bar -->
   <body>
@@ -394,28 +465,34 @@ else
         <a href="AtoZoo.html" class="navbar-brand">A to Zoo</a>
       </div>
 
+
       <ul class="nav navbar-nav">
         <li class="active"><a href="AtoZoo.html">Home</a></li>
         <li class=""><a href="about.html">About</a></li>
       </ul>
     </nav>
 
+
 	  <div class="container" align="center">
 		  <h1><FONT FACE="algerian">A to Zoo</FONT></h1>
 	  </div>
+
 
 	  <div class="row">
 	  	<div class="col-md-2 col-md-offset-5">
 		  	<form class="navbar-form navbar-left" role="search"action="search.php" method="get">
 			  	<div class="form-group">
-			  		<input type="text" class="form-control" placeholder="Enter an animal">
+			  		<input type="text" name="keyname" class="form-control" placeholder="Enter an animal">
 			  	</div>
 			  	<button type="submit" class="btn btn-default">Search</button>
 			  </form>
 	  	</div>
 	  </div>
 
+
 	  <br/>
+
+
 
 
   <div id="map-canvas" style="height:100%"></div>
